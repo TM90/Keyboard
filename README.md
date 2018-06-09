@@ -31,6 +31,6 @@ Winkel durch gebogenes Metall mit Fueßen oder Abstandsbolzen
 ## Manufacturer:
 ### PCB:
 
-beta layout <https://de.beta-layout.com/leiterplatten/ or LiteOn https://www.leiton.de/index.html>
+beta layout <https://de.beta-layout.com/leiterplatten/> or LiteOn <https://www.leiton.de/index.html>
 ### Mechanical:
 Maybe using a front panel service for the keyboard front, aluminum or acrylic would be possible at beta layout
