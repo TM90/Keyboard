@@ -19,8 +19,7 @@ Own layout and schematic but based on this project to keep compatibility with tm
 ## Mechanical
 <http://builder.swillkb.com/>
 
-Winkel durch gebogenes Metall mit Fueßen oder Abstandsbolzen
-
+Sandwich case or alu bend case
 
 ## Software/Firmware
 <https://qmk.fm/>
