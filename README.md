@@ -1,6 +1,6 @@
 ﻿# DIY Mechanical Keyboard
 
-##Main Idea:
+## Main Idea:
 
 Have as much as possible open source? Also the tools used to build the keyboard
 
