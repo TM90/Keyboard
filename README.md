@@ -1,6 +1,6 @@
 ﻿# DIY Mechanical Keyboard
 
-##Main Idea:
+## Main Idea:
 
 Have as much as possible open source? Also the tools used to build the keyboard
 
@@ -19,8 +19,7 @@ Own layout and schematic but based on this project to keep compatibility with tm
 ## Mechanical
 <http://builder.swillkb.com/>
 
-Winkel durch gebogenes Metall mit Fueßen oder Abstandsbolzen
-
+Sandwich case or alu bend case
 
 ## Software/Firmware
 - <https://qmk.fm/>
@@ -33,7 +32,7 @@ Winkel durch gebogenes Metall mit Fueßen oder Abstandsbolzen
 
 ## Manufacturer:
 ### PCB:
-beta layout <https://de.beta-layout.com/leiterplatten/ or LiteOn https://www.leiton.de/index.html>
+beta layout <https://de.beta-layout.com/leiterplatten/> or LiteOn <https://www.leiton.de/index.html>
 
 ### Mechanical:
 Maybe using a front panel service for the keyboard front, aluminum or acrylic would be possible at beta layout
