@@ -23,14 +23,17 @@ Winkel durch gebogenes Metall mit Fueßen oder Abstandsbolzen
 
 
 ## Software/Firmware
-<https://qmk.fm/>
+- <https://qmk.fm/>
+- <https://github.com/tmk/tmk_keyboard>
 
 
 ## Other:
 <http://www.keyboard-layout-editor.com/#/>
+
+
 ## Manufacturer:
 ### PCB:
-
 beta layout <https://de.beta-layout.com/leiterplatten/ or LiteOn https://www.leiton.de/index.html>
+
 ### Mechanical:
 Maybe using a front panel service for the keyboard front, aluminum or acrylic would be possible at beta layout
