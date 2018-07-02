@@ -29,6 +29,9 @@ Sandwich case or alu bend case
 ## Other:
 <http://www.keyboard-layout-editor.com/#/>
 
+Prototype for Switches without big PCB and description how to build a small keyboard:
+<https://learn.sparkfun.com/tutorials/cherry-mx-switch-breakout-hookup-guide>
+
 
 ## Manufacturer:
 ### PCB:
