@@ -15,6 +15,16 @@ Own layout and schematic but based on this project to keep compatibility with tm
 
 <https://github.com/tmk/HHKB_controller/blob/master/schematic/HHKB_controller_revG.pdf>
 
+### Datasheets
+
+#### Power
+- LM1117 3.3V LDO http://cdn-reichelt.de/documents/datenblatt/A200/LM1117-TI.pdf
+
+#### Bluetooth
+- RN42 Bluetooth Module http://ww1.microchip.com/downloads/en/DeviceDoc/50002328A.pdf
+
+#### Microcontroller
+- ATMEGA32U4 8 bit Microcontroller with USB http://ww1.microchip.com/downloads/en/devicedoc/atmel-7766-8-bit-avr-atmega16u4-32u4_datasheet.pdf
 
 ## Mechanical
 <http://builder.swillkb.com/>
