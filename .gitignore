@@ -1,3 +1,4 @@
 #editors temp files
 .*.swp
-
+*.bak
+*-cache.lib
