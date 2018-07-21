@@ -1,4 +1,4 @@
-update=Fri 06 Jul 2018 11:14:56 PM CEST
+update=Sat 21 Jul 2018 12:29:14 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=external_libs/kicad-libs
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -61,3 +61,4 @@ LibName29=valves
 LibName30=switches
 LibName31=modules
 LibName32=rfcom
+LibName33=external_libs/kicad-libs/shardy

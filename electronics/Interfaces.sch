@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:switches
 LIBS:modules
 LIBS:rfcom
+LIBS:shardy
 LIBS:keyboard-cache
 EELAYER 25 0
 EELAYER END
@@ -135,4 +136,27 @@ Text HLabel 1800 4050 0    60   Output ~ 0
 SCK
 Text HLabel 1800 4150 0    60   Output ~ 0
 RESET
+$Comp
+L RN42 U?
+U 1 1 5B54A7CF
+P 8950 2450
+F 0 "U?" H 8400 3400 50  0000 C CNN
+F 1 "RN42" H 9400 3400 50  0000 C CNN
+F 2 "" H 8950 1650 50  0001 C CNN
+F 3 "" H 8950 1650 50  0001 C CNN
+	1    8950 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 3350 8850 3500
+Wire Wire Line
+	9350 3350 9350 3500
+Wire Wire Line
+	8250 1750 8100 1750
+Wire Wire Line
+	8250 2850 8100 2850
+Wire Wire Line
+	8250 2750 8100 2750
+Wire Wire Line
+	8450 3350 8450 3500
 $EndSCHEMATC

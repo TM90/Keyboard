@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:switches
 LIBS:modules
 LIBS:rfcom
+LIBS:shardy
 LIBS:keyboard-cache
 EELAYER 25 0
 EELAYER END
