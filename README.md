@@ -44,6 +44,9 @@ Sandwich case or alu bend case
 Prototype for Switches without big PCB and description how to build a small keyboard:
 <https://learn.sparkfun.com/tutorials/cherry-mx-switch-breakout-hookup-guide>
 
+Fullsize Keyboard matrix example with atmega32u4:
+<https://easyeda.com/farmakon/GH80_3000-4f3cee521afd4be3858c4b5cc3b76f9e>
+
 
 ## Manufacturer:
 ### PCB:
