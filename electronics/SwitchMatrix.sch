@@ -972,17 +972,6 @@ F 3 "" H 8050 1400 50  0001 C CNN
 	1    8050 1200
 	1    0    0    -1  
 $EndComp
-$Comp
-L 4028 U?
-U 1 1 5B40F28C
-P 1550 1350
-F 0 "U?" H 1550 1350 50  0000 C CNN
-F 1 "4028" H 1500 1050 50  0000 C CNN
-F 2 "" H 1550 1350 60  0001 C CNN
-F 3 "" H 1550 1350 60  0001 C CNN
-	1    1550 1350
-	1    0    0    -1  
-$EndComp
 Text HLabel 850  1200 0    60   Input ~ 0
 ROW0
 Text HLabel 850  1300 0    60   Input ~ 0
@@ -991,133 +980,14 @@ Text HLabel 850  1400 0    60   Input ~ 0
 ROW2
 Text HLabel 850  1500 0    60   Input ~ 0
 ROW3
-Text Label 2400 900  0    60   ~ 0
-MAT_ROW0
-Text Label 2400 1000 0    60   ~ 0
-MAT_ROW1
-Text Label 2400 1100 0    60   ~ 0
-MAT_ROW2
-Text Label 2400 1200 0    60   ~ 0
-MAT_ROW3
-Text Label 2400 1300 0    60   ~ 0
-MAT_ROW4
-Text Label 2400 1400 0    60   ~ 0
-MAT_ROW5
-Text Label 2400 1500 0    60   ~ 0
-MAT_ROW6
-Text Label 2400 1600 0    60   ~ 0
-MAT_ROW7
-Text Label 2400 1700 0    60   ~ 0
-MAT_ROW8
-Text Label 2400 1800 0    60   ~ 0
-MAT_ROW9
-Text HLabel 1000 3500 0    60   Input ~ 0
-5V0_IN
-Text HLabel 1000 3600 0    60   Input ~ 0
-GND
-$Comp
-L +5V #PWR?
-U 1 1 5B4244F3
-P 2000 3400
-F 0 "#PWR?" H 2000 3250 50  0001 C CNN
-F 1 "+5V" H 2000 3540 50  0000 C CNN
-F 2 "" H 2000 3400 50  0001 C CNN
-F 3 "" H 2000 3400 50  0001 C CNN
-	1    2000 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5B42465F
-P 2000 4100
-F 0 "#PWR?" H 2000 3850 50  0001 C CNN
-F 1 "GND" H 2000 3950 50  0000 C CNN
-F 2 "" H 2000 4100 50  0001 C CNN
-F 3 "" H 2000 4100 50  0001 C CNN
-	1    2000 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG?
-U 1 1 5B424C7F
-P 1100 3500
-F 0 "#FLG?" H 1100 3575 50  0001 C CNN
-F 1 "PWR_FLAG" H 1100 3650 50  0000 C CNN
-F 2 "" H 1100 3500 50  0001 C CNN
-F 3 "" H 1100 3500 50  0001 C CNN
-	1    1100 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG?
-U 1 1 5B424D3F
-P 1100 3600
-F 0 "#FLG?" H 1100 3675 50  0001 C CNN
-F 1 "PWR_FLAG" H 1100 3750 50  0000 C CNN
-F 2 "" H 1100 3600 50  0001 C CNN
-F 3 "" H 1100 3600 50  0001 C CNN
-	1    1100 3600
-	-1   0    0    1   
-$EndComp
-$Comp
-L 74LS147 U?
-U 1 1 5B430133
-P 1900 2600
-F 0 "U?" H 1900 2600 50  0000 C CNN
-F 1 "74LS147" H 1950 2350 50  0000 C CNN
-F 2 "" H 1900 2600 50  0001 C CNN
-F 3 "" H 1900 2600 50  0001 C CNN
-	1    1900 2600
-	1    0    0    -1  
-$EndComp
-Text Label 1050 2200 2    60   ~ 0
-MAT_COL0
-Text Label 1050 2300 2    60   ~ 0
-MAT_COL1
-Text Label 1050 2400 2    60   ~ 0
-MAT_COL2
-Text Label 1050 2500 2    60   ~ 0
-MAT_COL3
-Text Label 1050 2600 2    60   ~ 0
-MAT_COL4
-Text Label 1050 2700 2    60   ~ 0
-MAT_COL5
-Text Label 1050 2800 2    60   ~ 0
-MAT_COL6
-Text Label 1050 2900 2    60   ~ 0
-MAT_COL7
-Text Label 1050 3000 2    60   ~ 0
-MAT_COL8
-Text HLabel 2650 2450 2    60   Output ~ 0
+Text HLabel 2400 1200 2    60   Output ~ 0
 COL0
-Text HLabel 2650 2550 2    60   Output ~ 0
+Text HLabel 2400 1300 2    60   Output ~ 0
 COL1
-Text HLabel 2650 2650 2    60   Output ~ 0
+Text HLabel 2400 1400 2    60   Output ~ 0
 COL2
-Text HLabel 2650 2750 2    60   Output ~ 0
-COl3
-$Comp
-L C C?
-U 1 1 5B44F118
-P 1850 3700
-F 0 "C?" H 1875 3800 50  0000 L CNN
-F 1 "100n" H 1875 3600 50  0000 L CNN
-F 2 "" H 1888 3550 50  0001 C CNN
-F 3 "" H 1850 3700 50  0001 C CNN
-	1    1850 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 5B44F65E
-P 2150 3700
-F 0 "C?" H 2175 3800 50  0000 L CNN
-F 1 "100n" H 2175 3600 50  0000 L CNN
-F 2 "" H 2188 3550 50  0001 C CNN
-F 3 "" H 2150 3700 50  0001 C CNN
-	1    2150 3700
-	1    0    0    -1  
-$EndComp
+Text HLabel 2400 1500 2    60   Output ~ 0
+COL3
 Wire Wire Line
 	850  1200 950  1200
 Wire Wire Line
@@ -1127,79 +997,51 @@ Wire Wire Line
 Wire Wire Line
 	850  1500 950  1500
 Wire Wire Line
-	2150 900  2400 900 
+	2250 1200 2400 1200
 Wire Wire Line
-	2150 1000 2400 1000
+	2250 1300 2400 1300
 Wire Wire Line
-	2150 1100 2400 1100
+	2250 1400 2400 1400
 Wire Wire Line
-	2150 1200 2400 1200
+	2250 1500 2400 1500
+Text HLabel 850  1700 0    60   Input ~ 0
+ROW5
+Text HLabel 850  1600 0    60   Input ~ 0
+ROW4
+Text HLabel 850  1800 0    60   Input ~ 0
+ROW6
+Text HLabel 850  1900 0    60   Input ~ 0
+ROW7
 Wire Wire Line
-	2150 1300 2400 1300
+	850  1600 950  1600
 Wire Wire Line
-	2150 1400 2400 1400
+	850  1700 950  1700
 Wire Wire Line
-	2150 1500 2400 1500
+	850  1800 950  1800
 Wire Wire Line
-	2150 1600 2400 1600
+	850  1900 950  1900
+Text HLabel 2400 1600 2    60   Output ~ 0
+COL4
+Text HLabel 2400 1700 2    60   Output ~ 0
+COL5
+Text HLabel 2400 1800 2    60   Output ~ 0
+COL6
+Text HLabel 2400 1900 2    60   Output ~ 0
+COL7
+Text HLabel 2400 2000 2    60   Output ~ 0
+COL8
+Text HLabel 2400 2100 2    60   Output ~ 0
+COL9
 Wire Wire Line
-	2150 1700 2400 1700
+	2400 1600 2250 1600
 Wire Wire Line
-	2150 1800 2400 1800
+	2400 1700 2250 1700
 Wire Wire Line
-	1300 3000 1050 3000
+	2400 1800 2250 1800
 Wire Wire Line
-	1300 2900 1050 2900
+	2400 1900 2250 1900
 Wire Wire Line
-	1300 2800 1050 2800
+	2400 2000 2250 2000
 Wire Wire Line
-	1300 2700 1050 2700
-Wire Wire Line
-	1300 2600 1050 2600
-Wire Wire Line
-	1300 2500 1050 2500
-Wire Wire Line
-	1300 2400 1050 2400
-Wire Wire Line
-	1300 2300 1050 2300
-Wire Wire Line
-	1300 2200 1050 2200
-Wire Wire Line
-	1000 3500 1600 3500
-Wire Wire Line
-	1000 3600 1600 3600
-Connection ~ 1100 3500
-Connection ~ 1100 3600
-Wire Wire Line
-	2500 2450 2650 2450
-Wire Wire Line
-	2500 2550 2650 2550
-Wire Wire Line
-	2500 2650 2650 2650
-Wire Wire Line
-	2500 2750 2650 2750
-Wire Wire Line
-	1850 3550 1850 3450
-Wire Wire Line
-	2150 3450 2150 3550
-Wire Wire Line
-	1600 3450 2150 3450
-Wire Wire Line
-	2000 3450 2000 3400
-Connection ~ 2000 3450
-Wire Wire Line
-	1850 3850 1850 3950
-Wire Wire Line
-	1600 3950 2150 3950
-Wire Wire Line
-	2150 3950 2150 3850
-Wire Wire Line
-	2000 4100 2000 3950
-Connection ~ 2000 3950
-Wire Wire Line
-	1600 3500 1600 3450
-Connection ~ 1850 3450
-Wire Wire Line
-	1600 3600 1600 3950
-Connection ~ 1850 3950
+	2400 2100 2250 2100
 $EndSCHEMATC
