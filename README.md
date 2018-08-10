@@ -27,6 +27,7 @@ Own layout and schematic but based on this project to keep compatibility with tm
 
 #### Microcontroller
 - ATMEGA32U4 8 bit Microcontroller with USB http://ww1.microchip.com/downloads/en/devicedoc/atmel-7766-8-bit-avr-atmega16u4-32u4_datasheet.pdf
+- AT90USB1286 8 bit Microcontroller with USB but more IO than ATMEGA32U4  http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf
 
 ## Mechanical
 <http://builder.swillkb.com/>
