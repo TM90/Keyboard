@@ -1,4 +1,4 @@
-update=Sat 21 Jul 2018 12:29:14 PM CEST
+update=Mon 23 Jul 2018 09:19:36 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,4 @@ LibName30=switches
 LibName31=modules
 LibName32=rfcom
 LibName33=external_libs/kicad-libs/shardy
+LibName34=external_libs/kicad-libs/MCU_Microchip_AVR

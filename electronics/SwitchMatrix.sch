@@ -32,6 +32,7 @@ LIBS:switches
 LIBS:modules
 LIBS:rfcom
 LIBS:shardy
+LIBS:MCU_Microchip_AVR
 LIBS:keyboard-cache
 EELAYER 25 0
 EELAYER END
