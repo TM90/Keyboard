@@ -51,7 +51,8 @@ Fullsize Keyboard matrix example with atmega32u4:
 
 ## Manufacturer:
 ### PCB:
-beta layout <https://de.beta-layout.com/leiterplatten/> or LiteOn <https://www.leiton.de/index.html>
-
+- beta layout <https://de.beta-layout.com/leiterplatten/> 
+- LiteOn <https://www.leiton.de/index.html> 
+- jlcpcb <https://jlcpcb.com/>
 ### Mechanical:
 Maybe using a front panel service for the keyboard front, aluminum or acrylic would be possible at beta layout
