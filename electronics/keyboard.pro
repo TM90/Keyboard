@@ -1,4 +1,4 @@
-update=Mon 23 Jul 2018 09:19:36 PM CEST
+update=Sat 11 Aug 2018 01:21:12 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=external_libs/kicad-libs
@@ -63,3 +61,5 @@ LibName31=modules
 LibName32=rfcom
 LibName33=external_libs/kicad-libs/shardy
 LibName34=external_libs/kicad-libs/MCU_Microchip_AVR
+[general]
+version=1
