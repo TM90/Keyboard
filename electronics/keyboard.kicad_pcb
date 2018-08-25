@@ -3,7 +3,7 @@
   (general
     (links 407)
     (no_connects 407)
-    (area -421.280001 -139.340001 374.575001 230.15)
+    (area -421.280001 -139.340001 374.575001 243.480001)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
@@ -1252,7 +1252,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815A8A)
-    (at 171.45 137.16)
+    (at 148.59 204.47)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B702EDD)
@@ -1427,7 +1427,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815AA8)
-    (at 128.27 132.08)
+    (at 129.54 208.28)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B706C30)
@@ -1462,7 +1462,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815AAE)
-    (at 144.78 125.73)
+    (at 134.62 205.74)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B706C3E)
@@ -1532,7 +1532,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815ABA)
-    (at 170.18 144.78)
+    (at 147.32 212.09)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B706F8A)
@@ -1567,7 +1567,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815AC0)
-    (at 163.83 138.43)
+    (at 140.97 205.74)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B709C42)
@@ -1777,7 +1777,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815AE4)
-    (at 184.15 107.95)
+    (at 187.96 205.74)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B709C8A)
@@ -1812,7 +1812,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815AEA)
-    (at 184.15 113.03)
+    (at 187.96 210.82)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B709C96)
@@ -1847,7 +1847,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815AF0)
-    (at 184.15 118.11)
+    (at 187.96 215.9)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B709CA2)
@@ -1882,7 +1882,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815AF6)
-    (at 184.15 120.65)
+    (at 187.96 218.44)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70A2A8)
@@ -2022,7 +2022,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815B0E)
-    (at 125.73 144.78)
+    (at 119.38 212.09)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70A2D8)
@@ -2057,7 +2057,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815B14)
-    (at 119.38 142.24)
+    (at 113.03 209.55)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70A2E4)
@@ -2267,7 +2267,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815B38)
-    (at 76.2 137.16)
+    (at 58.42 223.52)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70A33E)
@@ -2302,7 +2302,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815B3E)
-    (at 74.93 130.81)
+    (at 57.15 217.17)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70A34A)
@@ -2337,7 +2337,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815B44)
-    (at 81.28 130.81)
+    (at 63.5 217.17)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70A356)
@@ -2372,7 +2372,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815B4A)
-    (at 82.55 137.16)
+    (at 64.77 223.52)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70A362)
@@ -2407,7 +2407,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815B50)
-    (at 67.31 130.81)
+    (at 49.53 217.17)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70A36E)
@@ -2442,7 +2442,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815B56)
-    (at 67.31 135.89)
+    (at 49.53 222.25)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70A37A)
@@ -2512,7 +2512,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815B62)
-    (at 62.23 130.81)
+    (at 44.45 217.17)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70ACA4)
@@ -2547,7 +2547,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815B68)
-    (at 62.23 135.89)
+    (at 44.45 222.25)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70ACB0)
@@ -2582,7 +2582,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815B6E)
-    (at 58.42 130.81)
+    (at 40.64 217.17)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70ACBC)
@@ -2617,7 +2617,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815B74)
-    (at 58.42 135.89)
+    (at 40.64 222.25)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70ACC8)
@@ -2652,7 +2652,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815B7A)
-    (at 116.84 152.4)
+    (at 110.49 219.71)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70ACD4)
@@ -2687,7 +2687,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815B80)
-    (at 138.43 153.67)
+    (at 102.87 205.74)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70ACE0)
@@ -2757,7 +2757,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815B8C)
-    (at 163.83 152.4)
+    (at 140.97 219.71)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70ACF8)
@@ -2792,7 +2792,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815B92)
-    (at 171.45 153.67)
+    (at 148.59 220.98)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70AD04)
@@ -2827,7 +2827,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815B98)
-    (at 168.91 161.29)
+    (at 146.05 228.6)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70AD22)
@@ -2862,7 +2862,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815B9E)
-    (at 171.45 170.18)
+    (at 148.59 237.49)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70AD2E)
@@ -2897,7 +2897,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815BA4)
-    (at 177.8 163.83)
+    (at 154.94 231.14)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70AD3A)
@@ -2932,7 +2932,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815BAA)
-    (at 177.8 142.24)
+    (at 154.94 209.55)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70AD46)
@@ -2967,7 +2967,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815BB0)
-    (at 118.11 165.1)
+    (at 90.17 217.17)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70AD52)
@@ -3002,7 +3002,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815BB6)
-    (at 123.19 152.4)
+    (at 116.84 219.71)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70AD5E)
@@ -3037,7 +3037,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815BBC)
-    (at 144.78 152.4)
+    (at 123.19 205.74)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70AD6A)
@@ -3072,7 +3072,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815BC2)
-    (at 115.57 146.05)
+    (at 109.22 213.36)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70AD76)
@@ -3107,7 +3107,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815BC8)
-    (at 115.57 158.75)
+    (at 88.9 212.09)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70AD82)
@@ -3177,7 +3177,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815BD4)
-    (at 91.44 142.24)
+    (at 100.33 215.9)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70ADAC)
@@ -3212,7 +3212,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815BDA)
-    (at 187.96 132.08)
+    (at 160.02 218.44)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70ADB8)
@@ -3247,7 +3247,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815BE0)
-    (at 128.27 140.97)
+    (at 125.73 215.9)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70ADC4)
@@ -3282,7 +3282,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815BE6)
-    (at 181.61 138.43)
+    (at 158.75 205.74)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70ADD0)
@@ -3317,7 +3317,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815BEC)
-    (at 64.77 149.86)
+    (at 73.66 223.52)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70ADDC)
@@ -3387,7 +3387,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815BF8)
-    (at 63.5 143.51)
+    (at 72.39 217.17)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70ADF4)
@@ -3422,7 +3422,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815BFE)
-    (at 55.88 125.73)
+    (at 38.1 212.09)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70AE00)
@@ -3457,7 +3457,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815C04)
-    (at 49.53 132.08)
+    (at 31.75 218.44)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70AE1E)
@@ -3492,7 +3492,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815C0A)
-    (at 48.26 123.19)
+    (at 30.48 209.55)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70AE2A)
@@ -3527,7 +3527,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815C10)
-    (at 63.5 158.75)
+    (at 78.74 209.55)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70AE36)
@@ -3562,7 +3562,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815C16)
-    (at 67.31 172.72)
+    (at 82.55 223.52)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70AE42)
@@ -3807,7 +3807,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815C40)
-    (at 182.88 74.93)
+    (at 198.12 210.82)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70B5F8)
@@ -3842,7 +3842,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815C46)
-    (at 190.5 74.93)
+    (at 205.74 210.82)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70B604)
@@ -3912,7 +3912,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815C52)
-    (at 195.58 74.93)
+    (at 210.82 210.82)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70B61C)
@@ -3947,7 +3947,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815C58)
-    (at 200.66 74.93)
+    (at 215.9 210.82)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70B628)
@@ -3982,7 +3982,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815C5E)
-    (at 207.01 74.93)
+    (at 222.25 210.82)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70B634)
@@ -4122,7 +4122,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815C76)
-    (at 223.52 111.76)
+    (at 172.72 222.25)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70B676)
@@ -4157,7 +4157,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815C7C)
-    (at 227.33 116.84)
+    (at 176.53 227.33)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70B682)
@@ -4192,7 +4192,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815C82)
-    (at 224.79 104.14)
+    (at 175.26 214.63)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70B68E)
@@ -4227,7 +4227,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815C88)
-    (at 223.52 97.79)
+    (at 173.99 208.28)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70B69A)
@@ -4262,7 +4262,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815C8E)
-    (at 219.71 99.06)
+    (at 170.18 209.55)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70B6A6)
@@ -4297,7 +4297,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815C94)
-    (at 217.17 120.65)
+    (at 166.37 231.14)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70B6B2)
@@ -4332,7 +4332,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815C9A)
-    (at 229.87 124.46)
+    (at 179.07 234.95)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70B6BE)
@@ -4367,7 +4367,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 586A4032) (tstamp 5B815CA0)
-    (at 219.71 102.87)
+    (at 170.18 213.36)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5B400AD8/5B70B6CA)
