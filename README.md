@@ -19,7 +19,7 @@ Own layout and schematic but based on this project to keep compatibility with tm
 
 #### Power
 - LM1117 3.3V LDO http://cdn-reichelt.de/documents/datenblatt/A200/LM1117-TI.pdf
-- NCP1402 step up DCDC Converter https://www.onsemi.com/pub/Collateral/NCP1402-D.PDF
+- NCP1402 step up DCDC Converter https://www.onsemi.com/pub/Collateral/NCP1402-D.PDF ->farnell: out of production
 - MCP 73831/2 Single Cell Lipo Charge Management Controller http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf
 
 #### Bluetooth
