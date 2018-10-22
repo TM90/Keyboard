@@ -91,7 +91,7 @@ Text HLabel 6900 -250 3    60   Output ~ 0
 COL6
 Text HLabel 7650 -250 3    60   Output ~ 0
 COL7
-Text HLabel 8400 5050 3    60   Output ~ 0
+Text HLabel 8350 -250 3    60   Output ~ 0
 COL8
 Text HLabel 9150 5050 3    60   Output ~ 0
 COL9
@@ -155,23 +155,23 @@ $EndComp
 $Comp
 L SW_Push SW4
 U 1 1 5B706976
-P 9650 -3850
-F 0 "SW4" H 9700 -3750 50  0000 L CNN
-F 1 "SW_Push" H 9650 -3910 50  0000 C CNN
-F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_2.00u_PCB" H 9650 -3650 50  0001 C CNN
-F 3 "" H 9650 -3650 50  0001 C CNN
-	1    9650 -3850
+P 8050 -3850
+F 0 "SW4" H 8100 -3750 50  0000 L CNN
+F 1 "SW_Push" H 8050 -3910 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_2.00u_PCB" H 8050 -3650 50  0001 C CNN
+F 3 "" H 8050 -3650 50  0001 C CNN
+	1    8050 -3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L D D4
 U 1 1 5B70697C
-P 9350 -3700
-F 0 "D4" H 9350 -3600 50  0000 C CNN
-F 1 "D" H 9350 -3800 50  0000 C CNN
-F 2 "Diodes_SMD:D_0805" H 9350 -3700 50  0001 C CNN
-F 3 "" H 9350 -3700 50  0001 C CNN
-	1    9350 -3700
+P 7750 -3700
+F 0 "D4" H 7750 -3600 50  0000 C CNN
+F 1 "D" H 7750 -3800 50  0000 C CNN
+F 2 "Diodes_SMD:D_0805" H 7750 -3700 50  0001 C CNN
+F 3 "" H 7750 -3700 50  0001 C CNN
+	1    7750 -3700
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -287,45 +287,45 @@ $EndComp
 $Comp
 L SW_Push SW10
 U 1 1 5B709C3C
-P 8050 -3350
-F 0 "SW10" H 8100 -3250 50  0000 L CNN
-F 1 "SW_Push" H 8050 -3410 50  0000 C CNN
-F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.25u_PCB" H 8050 -3150 50  0001 C CNN
-F 3 "" H 8050 -3150 50  0001 C CNN
-	1    8050 -3350
+P 9650 -3350
+F 0 "SW10" H 9700 -3250 50  0000 L CNN
+F 1 "SW_Push" H 9650 -3410 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.25u_PCB" H 9650 -3150 50  0001 C CNN
+F 3 "" H 9650 -3150 50  0001 C CNN
+	1    9650 -3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L D D10
 U 1 1 5B709C42
-P 7750 -3200
-F 0 "D10" H 7750 -3100 50  0000 C CNN
-F 1 "D" H 7750 -3300 50  0000 C CNN
-F 2 "Diodes_SMD:D_0805" H 7750 -3200 50  0001 C CNN
-F 3 "" H 7750 -3200 50  0001 C CNN
-	1    7750 -3200
+P 9350 -3200
+F 0 "D10" H 9350 -3100 50  0000 C CNN
+F 1 "D" H 9350 -3300 50  0000 C CNN
+F 2 "Diodes_SMD:D_0805" H 9350 -3200 50  0001 C CNN
+F 3 "" H 9350 -3200 50  0001 C CNN
+	1    9350 -3200
 	0    -1   -1   0   
 $EndComp
 $Comp
 L SW_Push SW11
 U 1 1 5B709C48
-P 8050 -3850
-F 0 "SW11" H 8100 -3750 50  0000 L CNN
-F 1 "SW_Push" H 8050 -3910 50  0000 C CNN
-F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.25u_PCB" H 8050 -3650 50  0001 C CNN
-F 3 "" H 8050 -3650 50  0001 C CNN
-	1    8050 -3850
+P 9650 -3850
+F 0 "SW11" H 9700 -3750 50  0000 L CNN
+F 1 "SW_Push" H 9650 -3910 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.25u_PCB" H 9650 -3650 50  0001 C CNN
+F 3 "" H 9650 -3650 50  0001 C CNN
+	1    9650 -3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L D D11
 U 1 1 5B709C4E
-P 7750 -3700
-F 0 "D11" H 7750 -3600 50  0000 C CNN
-F 1 "D" H 7750 -3800 50  0000 C CNN
-F 2 "Diodes_SMD:D_0805" H 7750 -3700 50  0001 C CNN
-F 3 "" H 7750 -3700 50  0001 C CNN
-	1    7750 -3700
+P 9350 -3700
+F 0 "D11" H 9350 -3600 50  0000 C CNN
+F 1 "D" H 9350 -3800 50  0000 C CNN
+F 2 "Diodes_SMD:D_0805" H 9350 -3700 50  0001 C CNN
+F 3 "" H 9350 -3700 50  0001 C CNN
+	1    9350 -3700
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -375,23 +375,23 @@ $EndComp
 $Comp
 L SW_Push SW14
 U 1 1 5B709C6C
-P 8050 -700
-F 0 "SW14" H 8100 -600 50  0000 L CNN
-F 1 "SW_Push" H 8050 -760 50  0000 C CNN
-F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8050 -500 50  0001 C CNN
-F 3 "" H 8050 -500 50  0001 C CNN
-	1    8050 -700
+P 8800 -700
+F 0 "SW14" H 8850 -600 50  0000 L CNN
+F 1 "SW_Push" H 8800 -760 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8800 -500 50  0001 C CNN
+F 3 "" H 8800 -500 50  0001 C CNN
+	1    8800 -700
 	1    0    0    -1  
 $EndComp
 $Comp
 L D D14
 U 1 1 5B709C72
-P 7750 -550
-F 0 "D14" H 7750 -450 50  0000 C CNN
-F 1 "D" H 7750 -650 50  0000 C CNN
-F 2 "Diodes_SMD:D_0805" H 7750 -550 50  0001 C CNN
-F 3 "" H 7750 -550 50  0001 C CNN
-	1    7750 -550
+P 8500 -550
+F 0 "D14" H 8500 -450 50  0000 C CNN
+F 1 "D" H 8500 -650 50  0000 C CNN
+F 2 "Diodes_SMD:D_0805" H 8500 -550 50  0001 C CNN
+F 3 "" H 8500 -550 50  0001 C CNN
+	1    8500 -550
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -870,23 +870,23 @@ $EndComp
 $Comp
 L SW_Push SW37
 U 1 1 5B70AC9E
-P 9650 -700
-F 0 "SW37" H 9700 -600 50  0000 L CNN
-F 1 "SW_Push" H 9650 -760 50  0000 C CNN
-F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9650 -500 50  0001 C CNN
-F 3 "" H 9650 -500 50  0001 C CNN
-	1    9650 -700
+P 10400 -700
+F 0 "SW37" H 10450 -600 50  0000 L CNN
+F 1 "SW_Push" H 10400 -760 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 10400 -500 50  0001 C CNN
+F 3 "" H 10400 -500 50  0001 C CNN
+	1    10400 -700
 	1    0    0    -1  
 $EndComp
 $Comp
 L D D37
 U 1 1 5B70ACA4
-P 9350 -550
-F 0 "D37" H 9350 -450 50  0000 C CNN
-F 1 "D" H 9350 -650 50  0000 C CNN
-F 2 "Diodes_SMD:D_0805" H 9350 -550 50  0001 C CNN
-F 3 "" H 9350 -550 50  0001 C CNN
-	1    9350 -550
+P 10100 -550
+F 0 "D37" H 10100 -450 50  0000 C CNN
+F 1 "D" H 10100 -650 50  0000 C CNN
+F 2 "Diodes_SMD:D_0805" H 10100 -550 50  0001 C CNN
+F 3 "" H 10100 -550 50  0001 C CNN
+	1    10100 -550
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1442,23 +1442,23 @@ $EndComp
 $Comp
 L SW_Push SW63
 U 1 1 5B70ADFA
-P 9650 -3350
-F 0 "SW63" H 9700 -3250 50  0000 L CNN
-F 1 "SW_Push" H 9650 -3410 50  0000 C CNN
-F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9650 -3150 50  0001 C CNN
-F 3 "" H 9650 -3150 50  0001 C CNN
-	1    9650 -3350
+P 8050 -3350
+F 0 "SW63" H 8100 -3250 50  0000 L CNN
+F 1 "SW_Push" H 8050 -3410 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8050 -3150 50  0001 C CNN
+F 3 "" H 8050 -3150 50  0001 C CNN
+	1    8050 -3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L D D63
 U 1 1 5B70AE00
-P 9350 -3200
-F 0 "D63" H 9350 -3100 50  0000 C CNN
-F 1 "D" H 9350 -3300 50  0000 C CNN
-F 2 "Diodes_SMD:D_0805" H 9350 -3200 50  0001 C CNN
-F 3 "" H 9350 -3200 50  0001 C CNN
-	1    9350 -3200
+P 7750 -3200
+F 0 "D63" H 7750 -3100 50  0000 C CNN
+F 1 "D" H 7750 -3300 50  0000 C CNN
+F 2 "Diodes_SMD:D_0805" H 7750 -3200 50  0001 C CNN
+F 3 "" H 7750 -3200 50  0001 C CNN
+	1    7750 -3200
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1948,23 +1948,23 @@ $EndComp
 $Comp
 L SW_Push SW86
 U 1 1 5B70B694
-P 8800 -700
-F 0 "SW86" H 8850 -600 50  0000 L CNN
-F 1 "SW_Push" H 8800 -760 50  0000 C CNN
-F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8800 -500 50  0001 C CNN
-F 3 "" H 8800 -500 50  0001 C CNN
-	1    8800 -700
+P 9550 -700
+F 0 "SW86" H 9600 -600 50  0000 L CNN
+F 1 "SW_Push" H 9550 -760 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9550 -500 50  0001 C CNN
+F 3 "" H 9550 -500 50  0001 C CNN
+	1    9550 -700
 	1    0    0    -1  
 $EndComp
 $Comp
 L D D86
 U 1 1 5B70B69A
-P 8500 -550
-F 0 "D86" H 8500 -450 50  0000 C CNN
-F 1 "D" H 8500 -650 50  0000 C CNN
-F 2 "Diodes_SMD:D_0805" H 8500 -550 50  0001 C CNN
-F 3 "" H 8500 -550 50  0001 C CNN
-	1    8500 -550
+P 9250 -550
+F 0 "D86" H 9250 -450 50  0000 C CNN
+F 1 "D" H 9250 -650 50  0000 C CNN
+F 2 "Diodes_SMD:D_0805" H 9250 -550 50  0001 C CNN
+F 3 "" H 9250 -550 50  0001 C CNN
+	1    9250 -550
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -2077,11 +2077,11 @@ Wire Wire Line
 Wire Wire Line
 	6300 -1100 6400 -1100
 Wire Wire Line
-	9350 -3850 9450 -3850
+	7750 -3850 7850 -3850
 Wire Wire Line
 	6900 -1100 6800 -1100
 Wire Wire Line
-	9950 -3850 9850 -3850
+	8350 -3850 8250 -3850
 Wire Wire Line
 	4050 -1100 4150 -1100
 Wire Wire Line
@@ -2103,13 +2103,13 @@ Wire Wire Line
 Wire Wire Line
 	5400 -3850 5300 -3850
 Wire Wire Line
-	7750 -3350 7850 -3350
+	9350 -3350 9450 -3350
 Wire Wire Line
-	7750 -3850 7850 -3850
+	9350 -3850 9450 -3850
 Wire Wire Line
-	8250 -3350 8350 -3350
+	9850 -3350 9950 -3350
 Wire Wire Line
-	8250 -3850 8350 -3850
+	9850 -3850 9950 -3850
 Wire Wire Line
 	8550 -3850 8650 -3850
 Wire Wire Line
@@ -2119,9 +2119,9 @@ Wire Wire Line
 Wire Wire Line
 	5400 -700 5300 -700
 Wire Wire Line
-	7750 -700 7850 -700
+	8500 -700 8600 -700
 Wire Wire Line
-	8250 -700 8350 -700
+	9000 -700 9100 -700
 Wire Wire Line
 	2550 -2850 2650 -2850
 Wire Wire Line
@@ -2141,7 +2141,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 -3350 3400 -3350
 Wire Wire Line
-	8250 -1100 8350 -1100
+	8350 -1100 8250 -1100
 Wire Wire Line
 	3800 -3350 3900 -3350
 Wire Wire Line
@@ -2207,11 +2207,11 @@ Wire Wire Line
 Wire Wire Line
 	2400 -1550 2300 -1550
 Wire Wire Line
-	9350 -700 9450 -700
+	10100 -700 10200 -700
 Wire Wire Line
 	6300 -3350 6400 -3350
 Wire Wire Line
-	9850 -700 9950 -700
+	10600 -700 10700 -700
 Wire Wire Line
 	6800 -3350 6900 -3350
 Wire Wire Line
@@ -2273,13 +2273,13 @@ Wire Wire Line
 Wire Wire Line
 	7750 -2400 7850 -2400
 Wire Wire Line
-	8250 -2400 8350 -2400
+	8350 -2400 8250 -2400
 Wire Wire Line
 	7750 -2850 7850 -2850
 Wire Wire Line
 	8550 -3350 8650 -3350
 Wire Wire Line
-	8250 -2850 8350 -2850
+	8350 -2850 8250 -2850
 Wire Wire Line
 	9050 -3350 9150 -3350
 Wire Wire Line
@@ -2307,9 +2307,9 @@ Wire Wire Line
 Wire Wire Line
 	5400 -1550 5300 -1550
 Wire Wire Line
-	9350 -3350 9450 -3350
+	7750 -3350 7850 -3350
 Wire Wire Line
-	9950 -3350 9850 -3350
+	8350 -3350 8250 -3350
 Wire Wire Line
 	6300 -2850 6400 -2850
 Wire Wire Line
@@ -2391,9 +2391,9 @@ Wire Wire Line
 Wire Wire Line
 	10650 -1550 10750 -1550
 Wire Wire Line
-	8500 -700 8600 -700
+	9250 -700 9350 -700
 Wire Wire Line
-	9000 -700 9100 -700
+	9750 -700 9850 -700
 Wire Wire Line
 	5550 -2850 5650 -2850
 Wire Wire Line
@@ -2409,7 +2409,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 -1950 7850 -1950
 Wire Wire Line
-	8250 -1950 8350 -1950
+	8350 -1950 8250 -1950
 Connection ~ 7750 -800
 Connection ~ 3300 -800
 Connection ~ 3300 -2100
@@ -2417,7 +2417,6 @@ Connection ~ 7750 -2550
 Connection ~ 6300 -2550
 Connection ~ 2550 -400
 Connection ~ 1800 1650
-Connection ~ 7750 -3550
 Connection ~ 3300 -3050
 Connection ~ 6300 -3050
 Connection ~ 2550 -1250
@@ -2433,7 +2432,7 @@ Connection ~ 6300 -2100
 Connection ~ 7050 -400
 Connection ~ 7050 -1250
 Connection ~ 2550 -2100
-Connection ~ 9350 -3550
+Connection ~ 7750 -3550
 Connection ~ 4800 -400
 Connection ~ 4800 -800
 Connection ~ 3300 -1700
@@ -2443,7 +2442,7 @@ Connection ~ 5550 -3050
 Connection ~ 7050 -2100
 Connection ~ 1800 -2100
 Connection ~ 4050 -800
-Connection ~ 7750 -400
+Connection ~ 8500 -400
 Connection ~ 2550 -3050
 Connection ~ 1800 -3050
 Connection ~ 3300 -2550
@@ -2487,15 +2486,15 @@ Connection ~ 1800 -400
 Connection ~ 8550 -1650
 Connection ~ 2400 1350
 Connection ~ 6900 -1100
-Connection ~ 9950 -3850
+Connection ~ 8350 -3850
 Connection ~ 4650 -1100
 Connection ~ 9150 -1550
 Connection ~ 6900 -3850
 Connection ~ 6150 -1100
 Connection ~ 4650 -3850
 Connection ~ 3150 -2850
-Connection ~ 8350 -700
-Connection ~ 8350 -3850
+Connection ~ 9100 -700
+Connection ~ 9950 -3850
 Connection ~ 5400 -700
 Connection ~ 9150 -3850
 Connection ~ 3900 -3350
@@ -2536,7 +2535,7 @@ Connection ~ 5400 -2400
 Connection ~ 6150 -1550
 Connection ~ 6150 -2400
 Connection ~ 5400 -1550
-Connection ~ 9950 -3350
+Connection ~ 8350 -3350
 Connection ~ 2400 -700
 Connection ~ 3150 -1100
 Connection ~ 2400 -1100
@@ -2553,7 +2552,7 @@ Connection ~ 7800 850
 Connection ~ 3900 -700
 Connection ~ 6150 -2850
 Connection ~ 2400 -3850
-Connection ~ 9100 -700
+Connection ~ 9850 -700
 Connection ~ 10750 -1550
 Connection ~ 7650 -3850
 Connection ~ 7650 -1950
@@ -2564,7 +2563,6 @@ Wire Wire Line
 	2400 -700 2300 -700
 Wire Wire Line
 	2400 -3350 2300 -3350
-Connection ~ 7750 -3050
 Connection ~ 7050 -3050
 Wire Wire Line
 	3150 -3850 3150 -250
@@ -2619,18 +2617,24 @@ Wire Wire Line
 	1500 -1250 10150 -1250
 Wire Wire Line
 	1500 -800 9350 -800
-Connection ~ 8500 -400
-Wire Wire Line
-	1500 -3050 9350 -3050
-Wire Wire Line
-	1500 -400 9350 -400
+Connection ~ 9250 -400
 Wire Wire Line
 	6900 -3850 6900 -250
 Connection ~ 6900 -2850
 Wire Wire Line
-	1500 -3550 10100 -3550
-Wire Wire Line
 	7650 -3850 7650 -250
 Connection ~ 7650 -3350
 Connection ~ 7650 -2400
+Wire Wire Line
+	1500 -3550 10100 -3550
+Connection ~ 9350 -3550
+Connection ~ 7750 -3050
+Wire Wire Line
+	1500 -3050 9350 -3050
+Wire Wire Line
+	1500 -400 10100 -400
+Wire Wire Line
+	8350 -3850 8350 -250
+Connection ~ 8350 -2850
+Connection ~ 8350 -1100
 $EndSCHEMATC
