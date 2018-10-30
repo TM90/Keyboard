@@ -48,8 +48,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 5550 4050 2    60   ~ 0
-PC2
 Text Label 7250 4150 0    60   ~ 0
 PC1
 Text Label 7250 4050 0    60   ~ 0
@@ -109,7 +107,7 @@ F16 "COL6" O R 7050 3850 60
 F17 "COL7" O R 7050 3950 60 
 F18 "COL8" O R 7050 4050 60 
 F19 "COL9" O R 7050 4150 60 
-F20 "ROW8" I L 5750 4050 60 
+F20 "COL10" O R 7050 4250 60 
 $EndSheet
 $Comp
 L CONN_02X10 J1
@@ -122,8 +120,6 @@ F 3 "" H 3650 2850 50  0001 C CNN
 	1    3650 4050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5750 4050 5550 4050
 Wire Wire Line
 	7050 4150 7250 4150
 Wire Wire Line
@@ -161,10 +157,6 @@ Wire Wire Line
 Wire Wire Line
 	5750 3250 5550 3250
 Wire Wire Line
-	3400 3600 3000 3600
-Wire Wire Line
-	3400 3700 3000 3700
-Wire Wire Line
 	3400 3800 3000 3800
 Wire Wire Line
 	3400 3900 3000 3900
@@ -198,24 +190,6 @@ Wire Wire Line
 	3900 4400 4300 4400
 Wire Wire Line
 	3900 4500 4300 4500
-Text Label 3000 3600 2    60   ~ 0
-PA0
-Text Label 3000 3700 2    60   ~ 0
-PA1
-Text Label 3000 3800 2    60   ~ 0
-PA2
-Text Label 3000 3900 2    60   ~ 0
-PA3
-Text Label 3000 4000 2    60   ~ 0
-PA4
-Text Label 3000 4100 2    60   ~ 0
-PA5
-Text Label 3000 4200 2    60   ~ 0
-PA6
-Text Label 3000 4300 2    60   ~ 0
-PA7
-Text Label 3000 4400 2    60   ~ 0
-PC2
 Text Label 4300 3600 0    60   ~ 0
 PB0
 Text Label 4300 3700 0    60   ~ 0
@@ -236,4 +210,30 @@ Text Label 4300 4400 0    60   ~ 0
 PC0
 Text Label 4300 4500 0    60   ~ 0
 PC1
+Wire Wire Line
+	3400 4500 3000 4500
+Text Label 3000 4500 2    60   ~ 0
+PA0
+Text Label 3000 4400 2    60   ~ 0
+PA1
+Text Label 3000 4300 2    60   ~ 0
+PA2
+Text Label 3000 4200 2    60   ~ 0
+PA3
+Text Label 3000 4100 2    60   ~ 0
+PA4
+Text Label 3000 4000 2    60   ~ 0
+PA5
+Text Label 3000 3900 2    60   ~ 0
+PA6
+Text Label 3000 3800 2    60   ~ 0
+PA7
+Wire Wire Line
+	7050 4250 7250 4250
+Text Label 7250 4250 0    60   ~ 0
+PC2
+Wire Wire Line
+	3400 3700 3000 3700
+Text Label 3000 3700 2    60   ~ 0
+PC2
 $EndSCHEMATC
