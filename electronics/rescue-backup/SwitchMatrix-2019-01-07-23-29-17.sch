@@ -1,5 +1,40 @@
-EESchema Schematic File Version 4
-EELAYER 26 0
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:switches
+LIBS:modules
+LIBS:rfcom
+LIBS:shardy
+LIBS:MCU_Microchip_AVR
+LIBS:keyboard-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,7 +49,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Switch:SW_Push SW1
+L SW_Push SW1
 U 1 1 5B405AC8
 P 9350 2300
 F 0 "SW1" H 9400 2400 50  0000 L CNN
@@ -61,7 +96,7 @@ COL8
 Text HLabel 8850 4900 3    60   Output ~ 0
 COL9
 $Comp
-L Device:D D1
+L D D1
 U 1 1 5B702EDD
 P 9050 2450
 F 0 "D1" H 9050 2550 50  0000 C CNN
@@ -72,7 +107,7 @@ F 3 "" H 9050 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW3
+L SW_Push SW3
 U 1 1 5B706968
 P 6300 4050
 F 0 "SW3" H 6350 4150 50  0000 L CNN
@@ -83,7 +118,7 @@ F 3 "" H 6300 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D3
+L D D3
 U 1 1 5B70696E
 P 6000 4200
 F 0 "D3" H 6000 4300 50  0000 C CNN
@@ -94,7 +129,7 @@ F 3 "" H 6000 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW4
+L SW_Push SW4
 U 1 1 5B706976
 P 7750 1300
 F 0 "SW4" H 7800 1400 50  0000 L CNN
@@ -105,7 +140,7 @@ F 3 "" H 7750 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D4
+L D D4
 U 1 1 5B70697C
 P 7450 1450
 F 0 "D4" H 7450 1550 50  0000 C CNN
@@ -116,7 +151,7 @@ F 3 "" H 7450 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW5
+L SW_Push SW5
 U 1 1 5B706C1C
 P 4050 4050
 F 0 "SW5" H 4100 4150 50  0000 L CNN
@@ -127,7 +162,7 @@ F 3 "" H 4050 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D5
+L D D5
 U 1 1 5B706C22
 P 3750 4200
 F 0 "D5" H 3750 4300 50  0000 C CNN
@@ -138,7 +173,7 @@ F 3 "" H 3750 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW6
+L SW_Push SW6
 U 1 1 5B706C2A
 P 8550 3600
 F 0 "SW6" H 8600 3700 50  0000 L CNN
@@ -149,7 +184,7 @@ F 3 "" H 8550 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D6
+L D D6
 U 1 1 5B706C30
 P 8250 3750
 F 0 "D6" H 8250 3850 50  0000 C CNN
@@ -160,7 +195,7 @@ F 3 "" H 8250 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW7
+L SW_Push SW7
 U 1 1 5B706C38
 P 6300 1300
 F 0 "SW7" H 6350 1400 50  0000 L CNN
@@ -171,7 +206,7 @@ F 3 "" H 6300 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D7
+L D D7
 U 1 1 5B706C3E
 P 6000 1450
 F 0 "D7" H 6000 1550 50  0000 C CNN
@@ -182,7 +217,7 @@ F 3 "" H 6000 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW8
+L SW_Push SW8
 U 1 1 5B706C46
 P 5550 4050
 F 0 "SW8" H 5600 4150 50  0000 L CNN
@@ -193,7 +228,7 @@ F 3 "" H 5550 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D8
+L D D8
 U 1 1 5B706C4C
 P 5250 4200
 F 0 "D8" H 5250 4300 50  0000 C CNN
@@ -204,7 +239,7 @@ F 3 "" H 5250 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW9
+L SW_Push SW9
 U 1 1 5B706F84
 P 4800 1300
 F 0 "SW9" H 4850 1400 50  0000 L CNN
@@ -215,7 +250,7 @@ F 3 "" H 4800 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D9
+L D D9
 U 1 1 5B706F8A
 P 4500 1450
 F 0 "D9" H 4500 1550 50  0000 C CNN
@@ -226,7 +261,7 @@ F 3 "" H 4500 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW10
+L SW_Push SW10
 U 1 1 5B709C3C
 P 9350 1800
 F 0 "SW10" H 9400 1900 50  0000 L CNN
@@ -237,7 +272,7 @@ F 3 "" H 9350 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D10
+L D D10
 U 1 1 5B709C42
 P 9050 1950
 F 0 "D10" H 9050 2050 50  0000 C CNN
@@ -248,7 +283,7 @@ F 3 "" H 9050 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW11
+L SW_Push SW11
 U 1 1 5B709C48
 P 9350 1300
 F 0 "SW11" H 9400 1400 50  0000 L CNN
@@ -259,7 +294,7 @@ F 3 "" H 9350 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D11
+L D D11
 U 1 1 5B709C4E
 P 9050 1450
 F 0 "D11" H 9050 1550 50  0000 C CNN
@@ -270,7 +305,7 @@ F 3 "" H 9050 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW12
+L SW_Push SW12
 U 1 1 5B709C54
 P 10200 1300
 F 0 "SW12" H 10250 1400 50  0000 L CNN
@@ -281,7 +316,7 @@ F 3 "" H 10200 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D12
+L D D12
 U 1 1 5B709C5A
 P 9900 1450
 F 0 "D12" H 9900 1550 50  0000 C CNN
@@ -292,7 +327,7 @@ F 3 "" H 9900 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW13
+L SW_Push SW13
 U 1 1 5B709C60
 P 4800 4450
 F 0 "SW13" H 4850 4550 50  0000 L CNN
@@ -303,7 +338,7 @@ F 3 "" H 4800 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D13
+L D D13
 U 1 1 5B709C66
 P 4500 4600
 F 0 "D13" H 4500 4700 50  0000 C CNN
@@ -314,7 +349,7 @@ F 3 "" H 4500 4600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW14
+L SW_Push SW14
 U 1 1 5B709C6C
 P 8550 4450
 F 0 "SW14" H 8600 4550 50  0000 L CNN
@@ -325,7 +360,7 @@ F 3 "" H 8550 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D14
+L D D14
 U 1 1 5B709C72
 P 8250 4600
 F 0 "D14" H 8250 4700 50  0000 C CNN
@@ -336,7 +371,7 @@ F 3 "" H 8250 4600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW15
+L SW_Push SW15
 U 1 1 5B709C78
 P 2550 2300
 F 0 "SW15" H 2600 2400 50  0000 L CNN
@@ -347,7 +382,7 @@ F 3 "" H 2550 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D15
+L D D15
 U 1 1 5B709C7E
 P 2250 2450
 F 0 "D15" H 2250 2550 50  0000 C CNN
@@ -358,7 +393,7 @@ F 3 "" H 2250 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW16
+L SW_Push SW16
 U 1 1 5B709C84
 P 4800 1800
 F 0 "SW16" H 4850 1900 50  0000 L CNN
@@ -369,7 +404,7 @@ F 3 "" H 4800 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW17
+L SW_Push SW17
 U 1 1 5B709C90
 P 4050 1300
 F 0 "SW17" H 4100 1400 50  0000 L CNN
@@ -380,7 +415,7 @@ F 3 "" H 4050 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D17
+L D D17
 U 1 1 5B709C96
 P 3750 1450
 F 0 "D17" H 3750 1550 50  0000 C CNN
@@ -391,7 +426,7 @@ F 3 "" H 3750 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW18
+L SW_Push SW18
 U 1 1 5B709C9C
 P 4050 2750
 F 0 "SW18" H 4100 2850 50  0000 L CNN
@@ -402,7 +437,7 @@ F 3 "" H 4050 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D18
+L D D18
 U 1 1 5B709CA2
 P 3750 2900
 F 0 "D18" H 3750 3000 50  0000 C CNN
@@ -413,7 +448,7 @@ F 3 "" H 3750 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW19
+L SW_Push SW19
 U 1 1 5B70A2A2
 P 7750 4050
 F 0 "SW19" H 7800 4150 50  0000 L CNN
@@ -424,7 +459,7 @@ F 3 "" H 7750 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D19
+L D D19
 U 1 1 5B70A2A8
 P 7450 4200
 F 0 "D19" H 7450 4300 50  0000 C CNN
@@ -435,7 +470,7 @@ F 3 "" H 7450 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW20
+L SW_Push SW20
 U 1 1 5B70A2AE
 P 3300 1800
 F 0 "SW20" H 3350 1900 50  0000 L CNN
@@ -446,7 +481,7 @@ F 3 "" H 3300 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D20
+L D D20
 U 1 1 5B70A2B4
 P 3000 1950
 F 0 "D20" H 3000 2050 50  0000 C CNN
@@ -457,7 +492,7 @@ F 3 "" H 3000 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW21
+L SW_Push SW21
 U 1 1 5B70A2BA
 P 1800 2300
 F 0 "SW21" H 1850 2400 50  0000 L CNN
@@ -468,7 +503,7 @@ F 3 "" H 1800 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D21
+L D D21
 U 1 1 5B70A2C0
 P 1500 2450
 F 0 "D21" H 1500 2550 50  0000 C CNN
@@ -479,7 +514,7 @@ F 3 "" H 1500 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW22
+L SW_Push SW22
 U 1 1 5B70A2C6
 P 4800 4050
 F 0 "SW22" H 4850 4150 50  0000 L CNN
@@ -490,7 +525,7 @@ F 3 "" H 4800 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D22
+L D D22
 U 1 1 5B70A2CC
 P 4500 4200
 F 0 "D22" H 4500 4300 50  0000 C CNN
@@ -501,7 +536,7 @@ F 3 "" H 4500 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW23
+L SW_Push SW23
 U 1 1 5B70A2D2
 P 2550 1800
 F 0 "SW23" H 2600 1900 50  0000 L CNN
@@ -512,7 +547,7 @@ F 3 "" H 2550 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D23
+L D D23
 U 1 1 5B70A2D8
 P 2250 1950
 F 0 "D23" H 2250 2050 50  0000 C CNN
@@ -523,7 +558,7 @@ F 3 "" H 2250 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW24
+L SW_Push SW24
 U 1 1 5B70A2DE
 P 8550 2750
 F 0 "SW24" H 8600 2850 50  0000 L CNN
@@ -534,7 +569,7 @@ F 3 "" H 8550 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D24
+L D D24
 U 1 1 5B70A2E4
 P 8250 2900
 F 0 "D24" H 8250 3000 50  0000 C CNN
@@ -545,7 +580,7 @@ F 3 "" H 8250 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW25
+L SW_Push SW25
 U 1 1 5B70A2EA
 P 5550 1300
 F 0 "SW25" H 5600 1400 50  0000 L CNN
@@ -556,7 +591,7 @@ F 3 "" H 5550 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D25
+L D D25
 U 1 1 5B70A2F0
 P 5250 1450
 F 0 "D25" H 5250 1550 50  0000 C CNN
@@ -567,7 +602,7 @@ F 3 "" H 5250 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW27
+L SW_Push SW27
 U 1 1 5B70A302
 P 7750 3600
 F 0 "SW27" H 7800 3700 50  0000 L CNN
@@ -578,7 +613,7 @@ F 3 "" H 7750 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D27
+L D D27
 U 1 1 5B70A308
 P 7450 3750
 F 0 "D27" H 7450 3850 50  0000 C CNN
@@ -589,7 +624,7 @@ F 3 "" H 7450 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW28
+L SW_Push SW28
 U 1 1 5B70A320
 P 3300 4050
 F 0 "SW28" H 3350 4150 50  0000 L CNN
@@ -600,7 +635,7 @@ F 3 "" H 3300 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D28
+L D D28
 U 1 1 5B70A326
 P 3000 4200
 F 0 "D28" H 3000 4300 50  0000 C CNN
@@ -611,7 +646,7 @@ F 3 "" H 3000 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW29
+L SW_Push SW29
 U 1 1 5B70A32C
 P 8550 1300
 F 0 "SW29" H 8600 1400 50  0000 L CNN
@@ -622,7 +657,7 @@ F 3 "" H 8550 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D29
+L D D29
 U 1 1 5B70A332
 P 8250 1450
 F 0 "D29" H 8250 1550 50  0000 C CNN
@@ -633,7 +668,7 @@ F 3 "" H 8250 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW30
+L SW_Push SW30
 U 1 1 5B70A338
 P 8550 2300
 F 0 "SW30" H 8600 2400 50  0000 L CNN
@@ -644,7 +679,7 @@ F 3 "" H 8550 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D30
+L D D30
 U 1 1 5B70A33E
 P 8250 2450
 F 0 "D30" H 8250 2550 50  0000 C CNN
@@ -655,7 +690,7 @@ F 3 "" H 8250 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW31
+L SW_Push SW31
 U 1 1 5B70A344
 P 3300 3150
 F 0 "SW31" H 3350 3250 50  0000 L CNN
@@ -666,7 +701,7 @@ F 3 "" H 3300 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D31
+L D D31
 U 1 1 5B70A34A
 P 3000 3300
 F 0 "D31" H 3000 3400 50  0000 C CNN
@@ -677,7 +712,7 @@ F 3 "" H 3000 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW32
+L SW_Push SW32
 U 1 1 5B70A350
 P 1800 1800
 F 0 "SW32" H 1850 1900 50  0000 L CNN
@@ -688,7 +723,7 @@ F 3 "" H 1800 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D32
+L D D32
 U 1 1 5B70A356
 P 1500 1950
 F 0 "D32" H 1500 2050 50  0000 C CNN
@@ -699,7 +734,7 @@ F 3 "" H 1500 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW33
+L SW_Push SW33
 U 1 1 5B70A35C
 P 4050 3150
 F 0 "SW33" H 4100 3250 50  0000 L CNN
@@ -710,7 +745,7 @@ F 3 "" H 4050 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D33
+L D D33
 U 1 1 5B70A362
 P 3750 3300
 F 0 "D33" H 3750 3400 50  0000 C CNN
@@ -721,7 +756,7 @@ F 3 "" H 3750 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW34
+L SW_Push SW34
 U 1 1 5B70A368
 P 3300 3600
 F 0 "SW34" H 3350 3700 50  0000 L CNN
@@ -732,7 +767,7 @@ F 3 "" H 3300 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D34
+L D D34
 U 1 1 5B70A36E
 P 3000 3750
 F 0 "D34" H 3000 3850 50  0000 C CNN
@@ -743,7 +778,7 @@ F 3 "" H 3000 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW35
+L SW_Push SW35
 U 1 1 5B70A374
 P 4050 3600
 F 0 "SW35" H 4100 3700 50  0000 L CNN
@@ -754,7 +789,7 @@ F 3 "" H 4050 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D35
+L D D35
 U 1 1 5B70A37A
 P 3750 3750
 F 0 "D35" H 3750 3850 50  0000 C CNN
@@ -765,7 +800,7 @@ F 3 "" H 3750 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW36
+L SW_Push SW36
 U 1 1 5B70A380
 P 1800 3600
 F 0 "SW36" H 1850 3700 50  0000 L CNN
@@ -776,7 +811,7 @@ F 3 "" H 1800 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D36
+L D D36
 U 1 1 5B70A386
 P 1500 3750
 F 0 "D36" H 1500 3850 50  0000 C CNN
@@ -787,7 +822,7 @@ F 3 "" H 1500 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW37
+L SW_Push SW37
 U 1 1 5B70AC9E
 P 10100 4450
 F 0 "SW37" H 10150 4550 50  0000 L CNN
@@ -798,7 +833,7 @@ F 3 "" H 10100 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D37
+L D D37
 U 1 1 5B70ACA4
 P 9800 4600
 F 0 "D37" H 9800 4700 50  0000 C CNN
@@ -809,7 +844,7 @@ F 3 "" H 9800 4600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW38
+L SW_Push SW38
 U 1 1 5B70ACAA
 P 6300 1800
 F 0 "SW38" H 6350 1900 50  0000 L CNN
@@ -820,7 +855,7 @@ F 3 "" H 6300 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D38
+L D D38
 U 1 1 5B70ACB0
 P 6000 1950
 F 0 "D38" H 6000 2050 50  0000 C CNN
@@ -831,7 +866,7 @@ F 3 "" H 6000 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW39
+L SW_Push SW39
 U 1 1 5B70ACB6
 P 3300 1300
 F 0 "SW39" H 3350 1400 50  0000 L CNN
@@ -842,7 +877,7 @@ F 3 "" H 3300 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D39
+L D D39
 U 1 1 5B70ACBC
 P 3000 1450
 F 0 "D39" H 3000 1550 50  0000 C CNN
@@ -853,7 +888,7 @@ F 3 "" H 3000 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW40
+L SW_Push SW40
 U 1 1 5B70ACC2
 P 4050 1800
 F 0 "SW40" H 4100 1900 50  0000 L CNN
@@ -864,7 +899,7 @@ F 3 "" H 4050 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D40
+L D D40
 U 1 1 5B70ACC8
 P 3750 1950
 F 0 "D40" H 3750 2050 50  0000 C CNN
@@ -875,7 +910,7 @@ F 3 "" H 3750 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW41
+L SW_Push SW41
 U 1 1 5B70ACCE
 P 3300 2300
 F 0 "SW41" H 3350 2400 50  0000 L CNN
@@ -886,7 +921,7 @@ F 3 "" H 3300 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D41
+L D D41
 U 1 1 5B70ACD4
 P 3000 2450
 F 0 "D41" H 3000 2550 50  0000 C CNN
@@ -897,7 +932,7 @@ F 3 "" H 3000 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW42
+L SW_Push SW42
 U 1 1 5B70ACDA
 P 6300 3200
 F 0 "SW42" H 6350 3300 50  0000 L CNN
@@ -908,7 +943,7 @@ F 3 "" H 6300 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D42
+L D D42
 U 1 1 5B70ACE0
 P 6000 3350
 F 0 "D42" H 6000 3450 50  0000 C CNN
@@ -919,7 +954,7 @@ F 3 "" H 6000 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW43
+L SW_Push SW43
 U 1 1 5B70ACE6
 P 6300 3600
 F 0 "SW43" H 6350 3700 50  0000 L CNN
@@ -930,7 +965,7 @@ F 3 "" H 6300 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D43
+L D D43
 U 1 1 5B70ACEC
 P 6000 3750
 F 0 "D43" H 6000 3850 50  0000 C CNN
@@ -941,7 +976,7 @@ F 3 "" H 6000 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW44
+L SW_Push SW44
 U 1 1 5B70ACF2
 P 2550 3200
 F 0 "SW44" H 2600 3300 50  0000 L CNN
@@ -952,7 +987,7 @@ F 3 "" H 2550 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D44
+L D D44
 U 1 1 5B70ACF8
 P 2250 3350
 F 0 "D44" H 2250 3450 50  0000 C CNN
@@ -963,7 +998,7 @@ F 3 "" H 2250 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW45
+L SW_Push SW45
 U 1 1 5B70ACFE
 P 4050 2300
 F 0 "SW45" H 4100 2400 50  0000 L CNN
@@ -974,7 +1009,7 @@ F 3 "" H 4050 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D45
+L D D45
 U 1 1 5B70AD04
 P 3750 2450
 F 0 "D45" H 3750 2550 50  0000 C CNN
@@ -985,7 +1020,7 @@ F 3 "" H 3750 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW46
+L SW_Push SW46
 U 1 1 5B70AD1C
 P 3300 2750
 F 0 "SW46" H 3350 2850 50  0000 L CNN
@@ -996,7 +1031,7 @@ F 3 "" H 3300 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D46
+L D D46
 U 1 1 5B70AD22
 P 3000 2900
 F 0 "D46" H 3000 3000 50  0000 C CNN
@@ -1007,7 +1042,7 @@ F 3 "" H 3000 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW47
+L SW_Push SW47
 U 1 1 5B70AD28
 P 2550 3600
 F 0 "SW47" H 2600 3700 50  0000 L CNN
@@ -1018,7 +1053,7 @@ F 3 "" H 2550 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D47
+L D D47
 U 1 1 5B70AD2E
 P 2250 3750
 F 0 "D47" H 2250 3850 50  0000 C CNN
@@ -1029,7 +1064,7 @@ F 3 "" H 2250 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW48
+L SW_Push SW48
 U 1 1 5B70AD34
 P 6300 2750
 F 0 "SW48" H 6350 2850 50  0000 L CNN
@@ -1040,7 +1075,7 @@ F 3 "" H 6300 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D48
+L D D48
 U 1 1 5B70AD3A
 P 6000 2900
 F 0 "D48" H 6000 3000 50  0000 C CNN
@@ -1051,7 +1086,7 @@ F 3 "" H 6000 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW49
+L SW_Push SW49
 U 1 1 5B70AD40
 P 10100 4050
 F 0 "SW49" H 10150 4150 50  0000 L CNN
@@ -1062,7 +1097,7 @@ F 3 "" H 10100 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D49
+L D D49
 U 1 1 5B70AD46
 P 9800 4200
 F 0 "D49" H 9800 4300 50  0000 C CNN
@@ -1073,7 +1108,7 @@ F 3 "" H 9800 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW50
+L SW_Push SW50
 U 1 1 5B70AD4C
 P 10100 3600
 F 0 "SW50" H 10150 3700 50  0000 L CNN
@@ -1084,7 +1119,7 @@ F 3 "" H 10100 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D50
+L D D50
 U 1 1 5B70AD52
 P 9800 3750
 F 0 "D50" H 9800 3850 50  0000 C CNN
@@ -1095,7 +1130,7 @@ F 3 "" H 9800 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW51
+L SW_Push SW51
 U 1 1 5B70AD58
 P 4800 3200
 F 0 "SW51" H 4850 3300 50  0000 L CNN
@@ -1106,7 +1141,7 @@ F 3 "" H 4800 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D51
+L D D51
 U 1 1 5B70AD5E
 P 4500 3350
 F 0 "D51" H 4500 3450 50  0000 C CNN
@@ -1117,7 +1152,7 @@ F 3 "" H 4500 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW52
+L SW_Push SW52
 U 1 1 5B70AD64
 P 9350 3200
 F 0 "SW52" H 9400 3300 50  0000 L CNN
@@ -1128,7 +1163,7 @@ F 3 "" H 9350 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D52
+L D D52
 U 1 1 5B70AD6A
 P 9050 3350
 F 0 "D52" H 9050 3450 50  0000 C CNN
@@ -1139,7 +1174,7 @@ F 3 "" H 9050 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW53
+L SW_Push SW53
 U 1 1 5B70AD70
 P 2550 1300
 F 0 "SW53" H 2600 1400 50  0000 L CNN
@@ -1150,7 +1185,7 @@ F 3 "" H 2550 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D53
+L D D53
 U 1 1 5B70AD76
 P 2250 1450
 F 0 "D53" H 2250 1550 50  0000 C CNN
@@ -1161,7 +1196,7 @@ F 3 "" H 2250 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW54
+L SW_Push SW54
 U 1 1 5B70AD7C
 P 7750 2750
 F 0 "SW54" H 7800 2850 50  0000 L CNN
@@ -1172,7 +1207,7 @@ F 3 "" H 7750 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D54
+L D D54
 U 1 1 5B70AD82
 P 7450 2900
 F 0 "D54" H 7450 3000 50  0000 C CNN
@@ -1183,7 +1218,7 @@ F 3 "" H 7450 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW55
+L SW_Push SW55
 U 1 1 5B70AD9A
 P 7750 2300
 F 0 "SW55" H 7800 2400 50  0000 L CNN
@@ -1194,7 +1229,7 @@ F 3 "" H 7750 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D55
+L D D55
 U 1 1 5B70ADA0
 P 7450 2450
 F 0 "D55" H 7450 2550 50  0000 C CNN
@@ -1205,7 +1240,7 @@ F 3 "" H 7450 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW56
+L SW_Push SW56
 U 1 1 5B70ADA6
 P 8550 1800
 F 0 "SW56" H 8600 1900 50  0000 L CNN
@@ -1216,7 +1251,7 @@ F 3 "" H 8550 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D56
+L D D56
 U 1 1 5B70ADAC
 P 8250 1950
 F 0 "D56" H 8250 2050 50  0000 C CNN
@@ -1227,7 +1262,7 @@ F 3 "" H 8250 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW57
+L SW_Push SW57
 U 1 1 5B70ADB2
 P 7050 4450
 F 0 "SW57" H 7100 4550 50  0000 L CNN
@@ -1238,7 +1273,7 @@ F 3 "" H 7050 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D57
+L D D57
 U 1 1 5B70ADB8
 P 6750 4600
 F 0 "D57" H 6750 4700 50  0000 C CNN
@@ -1249,7 +1284,7 @@ F 3 "" H 6750 4600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW58
+L SW_Push SW58
 U 1 1 5B70ADBE
 P 5550 1800
 F 0 "SW58" H 5600 1900 50  0000 L CNN
@@ -1260,7 +1295,7 @@ F 3 "" H 5550 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D58
+L D D58
 U 1 1 5B70ADC4
 P 5250 1950
 F 0 "D58" H 5250 2050 50  0000 C CNN
@@ -1271,7 +1306,7 @@ F 3 "" H 5250 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW59
+L SW_Push SW59
 U 1 1 5B70ADCA
 P 4800 2750
 F 0 "SW59" H 4850 2850 50  0000 L CNN
@@ -1282,7 +1317,7 @@ F 3 "" H 4800 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D59
+L D D59
 U 1 1 5B70ADD0
 P 4500 2900
 F 0 "D59" H 4500 3000 50  0000 C CNN
@@ -1293,7 +1328,7 @@ F 3 "" H 4500 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW60
+L SW_Push SW60
 U 1 1 5B70ADD6
 P 5550 3600
 F 0 "SW60" H 5600 3700 50  0000 L CNN
@@ -1304,7 +1339,7 @@ F 3 "" H 5550 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D60
+L D D60
 U 1 1 5B70ADDC
 P 5250 3750
 F 0 "D60" H 5250 3850 50  0000 C CNN
@@ -1315,7 +1350,7 @@ F 3 "" H 5250 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW61
+L SW_Push SW61
 U 1 1 5B70ADE2
 P 5550 2750
 F 0 "SW61" H 5600 2850 50  0000 L CNN
@@ -1326,7 +1361,7 @@ F 3 "" H 5550 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D61
+L D D61
 U 1 1 5B70ADE8
 P 5250 2900
 F 0 "D61" H 5250 3000 50  0000 C CNN
@@ -1337,7 +1372,7 @@ F 3 "" H 5250 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW62
+L SW_Push SW62
 U 1 1 5B70ADEE
 P 4800 3600
 F 0 "SW62" H 4850 3700 50  0000 L CNN
@@ -1348,7 +1383,7 @@ F 3 "" H 4800 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D62
+L D D62
 U 1 1 5B70ADF4
 P 4500 3750
 F 0 "D62" H 4500 3850 50  0000 C CNN
@@ -1359,7 +1394,7 @@ F 3 "" H 4500 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW63
+L SW_Push SW63
 U 1 1 5B70ADFA
 P 7750 1800
 F 0 "SW63" H 7800 1900 50  0000 L CNN
@@ -1370,7 +1405,7 @@ F 3 "" H 7750 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D63
+L D D63
 U 1 1 5B70AE00
 P 7450 1950
 F 0 "D63" H 7450 2050 50  0000 C CNN
@@ -1381,7 +1416,7 @@ F 3 "" H 7450 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW64
+L SW_Push SW64
 U 1 1 5B70AE18
 P 6300 2300
 F 0 "SW64" H 6350 2400 50  0000 L CNN
@@ -1392,7 +1427,7 @@ F 3 "" H 6300 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D64
+L D D64
 U 1 1 5B70AE1E
 P 6000 2450
 F 0 "D64" H 6000 2550 50  0000 C CNN
@@ -1403,7 +1438,7 @@ F 3 "" H 6000 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW65
+L SW_Push SW65
 U 1 1 5B70AE24
 P 4800 2300
 F 0 "SW65" H 4850 2400 50  0000 L CNN
@@ -1414,7 +1449,7 @@ F 3 "" H 4800 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D65
+L D D65
 U 1 1 5B70AE2A
 P 4500 2450
 F 0 "D65" H 4500 2550 50  0000 C CNN
@@ -1425,7 +1460,7 @@ F 3 "" H 4500 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW66
+L SW_Push SW66
 U 1 1 5B70AE30
 P 7050 3600
 F 0 "SW66" H 7100 3700 50  0000 L CNN
@@ -1436,7 +1471,7 @@ F 3 "" H 7050 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D66
+L D D66
 U 1 1 5B70AE36
 P 6750 3750
 F 0 "D66" H 6750 3850 50  0000 C CNN
@@ -1447,7 +1482,7 @@ F 3 "" H 6750 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW67
+L SW_Push SW67
 U 1 1 5B70AE3C
 P 7050 2750
 F 0 "SW67" H 7100 2850 50  0000 L CNN
@@ -1458,7 +1493,7 @@ F 3 "" H 7050 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D67
+L D D67
 U 1 1 5B70AE42
 P 6750 2900
 F 0 "D67" H 6750 3000 50  0000 C CNN
@@ -1469,7 +1504,7 @@ F 3 "" H 6750 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW68
+L SW_Push SW68
 U 1 1 5B70AE48
 P 7050 2300
 F 0 "SW68" H 7100 2400 50  0000 L CNN
@@ -1480,7 +1515,7 @@ F 3 "" H 7050 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D68
+L D D68
 U 1 1 5B70AE4E
 P 6750 2450
 F 0 "D68" H 6750 2550 50  0000 C CNN
@@ -1491,7 +1526,7 @@ F 3 "" H 6750 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW69
+L SW_Push SW69
 U 1 1 5B70AE54
 P 5550 3200
 F 0 "SW69" H 5600 3300 50  0000 L CNN
@@ -1502,7 +1537,7 @@ F 3 "" H 5550 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D69
+L D D69
 U 1 1 5B70AE5A
 P 5250 3350
 F 0 "D69" H 5250 3450 50  0000 C CNN
@@ -1513,7 +1548,7 @@ F 3 "" H 5250 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW70
+L SW_Push SW70
 U 1 1 5B70AE60
 P 1800 4050
 F 0 "SW70" H 1850 4150 50  0000 L CNN
@@ -1524,7 +1559,7 @@ F 3 "" H 1800 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D70
+L D D70
 U 1 1 5B70AE66
 P 1500 4200
 F 0 "D70" H 1500 4300 50  0000 C CNN
@@ -1535,7 +1570,7 @@ F 3 "" H 1500 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW71
+L SW_Push SW71
 U 1 1 5B70AE6C
 P 2550 4050
 F 0 "SW71" H 2600 4150 50  0000 L CNN
@@ -1546,7 +1581,7 @@ F 3 "" H 2550 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D71
+L D D71
 U 1 1 5B70AE72
 P 2250 4200
 F 0 "D71" H 2250 4300 50  0000 C CNN
@@ -1557,7 +1592,7 @@ F 3 "" H 2250 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW72
+L SW_Push SW72
 U 1 1 5B70AE78
 P 1800 4450
 F 0 "SW72" H 1850 4550 50  0000 L CNN
@@ -1568,7 +1603,7 @@ F 3 "" H 1800 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D72
+L D D72
 U 1 1 5B70AE7E
 P 1500 4600
 F 0 "D72" H 1500 4700 50  0000 C CNN
@@ -1579,7 +1614,7 @@ F 3 "" H 1500 4600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW73
+L SW_Push SW73
 U 1 1 5B70B5E6
 P 2550 4450
 F 0 "SW73" H 2600 4550 50  0000 L CNN
@@ -1590,7 +1625,7 @@ F 3 "" H 2550 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D73
+L D D73
 U 1 1 5B70B5EC
 P 2250 4600
 F 0 "D73" H 2250 4700 50  0000 C CNN
@@ -1601,7 +1636,7 @@ F 3 "" H 2250 4600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW74
+L SW_Push SW74
 U 1 1 5B70B5F2
 P 1800 3200
 F 0 "SW74" H 1850 3300 50  0000 L CNN
@@ -1612,7 +1647,7 @@ F 3 "" H 1800 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D74
+L D D74
 U 1 1 5B70B5F8
 P 1500 3350
 F 0 "D74" H 1500 3450 50  0000 C CNN
@@ -1623,7 +1658,7 @@ F 3 "" H 1500 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW75
+L SW_Push SW75
 U 1 1 5B70B5FE
 P 2550 2750
 F 0 "SW75" H 2600 2850 50  0000 L CNN
@@ -1634,7 +1669,7 @@ F 3 "" H 2550 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D75
+L D D75
 U 1 1 5B70B604
 P 2250 2900
 F 0 "D75" H 2250 3000 50  0000 C CNN
@@ -1645,7 +1680,7 @@ F 3 "" H 2250 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW76
+L SW_Push SW76
 U 1 1 5B70B60A
 P 1800 2750
 F 0 "SW76" H 1850 2850 50  0000 L CNN
@@ -1656,7 +1691,7 @@ F 3 "" H 1800 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D76
+L D D76
 U 1 1 5B70B610
 P 1500 2900
 F 0 "D76" H 1500 3000 50  0000 C CNN
@@ -1667,7 +1702,7 @@ F 3 "" H 1500 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW77
+L SW_Push SW77
 U 1 1 5B70B616
 P 1800 1300
 F 0 "SW77" H 1850 1400 50  0000 L CNN
@@ -1678,7 +1713,7 @@ F 3 "" H 1800 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D77
+L D D77
 U 1 1 5B70B61C
 P 1500 1450
 F 0 "D77" H 1500 1550 50  0000 C CNN
@@ -1689,7 +1724,7 @@ F 3 "" H 1500 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW78
+L SW_Push SW78
 U 1 1 5B70B622
 P 3300 4450
 F 0 "SW78" H 3350 4550 50  0000 L CNN
@@ -1700,7 +1735,7 @@ F 3 "" H 3300 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D78
+L D D78
 U 1 1 5B70B628
 P 3000 4600
 F 0 "D78" H 3000 4700 50  0000 C CNN
@@ -1711,7 +1746,7 @@ F 3 "" H 3000 4600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW81
+L SW_Push SW81
 U 1 1 5B70B646
 P 8550 3200
 F 0 "SW81" H 8600 3300 50  0000 L CNN
@@ -1722,7 +1757,7 @@ F 3 "" H 8550 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D81
+L D D81
 U 1 1 5B70B64C
 P 8250 3350
 F 0 "D81" H 8250 3450 50  0000 C CNN
@@ -1733,7 +1768,7 @@ F 3 "" H 8250 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW82
+L SW_Push SW82
 U 1 1 5B70B664
 P 7050 1800
 F 0 "SW82" H 7100 1900 50  0000 L CNN
@@ -1744,7 +1779,7 @@ F 3 "" H 7050 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D82
+L D D82
 U 1 1 5B70B66A
 P 6750 1950
 F 0 "D82" H 6750 2050 50  0000 C CNN
@@ -1755,7 +1790,7 @@ F 3 "" H 6750 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW83
+L SW_Push SW83
 U 1 1 5B70B670
 P 7050 3200
 F 0 "SW83" H 7100 3300 50  0000 L CNN
@@ -1766,7 +1801,7 @@ F 3 "" H 7050 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D83
+L D D83
 U 1 1 5B70B676
 P 6750 3350
 F 0 "D83" H 6750 3450 50  0000 C CNN
@@ -1777,7 +1812,7 @@ F 3 "" H 6750 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW84
+L SW_Push SW84
 U 1 1 5B70B67C
 P 7050 1300
 F 0 "SW84" H 7100 1400 50  0000 L CNN
@@ -1788,7 +1823,7 @@ F 3 "" H 7050 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D84
+L D D84
 U 1 1 5B70B682
 P 6750 1450
 F 0 "D84" H 6750 1550 50  0000 C CNN
@@ -1799,7 +1834,7 @@ F 3 "" H 6750 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW85
+L SW_Push SW85
 U 1 1 5B70B688
 P 9350 3600
 F 0 "SW85" H 9400 3700 50  0000 L CNN
@@ -1810,7 +1845,7 @@ F 3 "" H 9350 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D85
+L D D85
 U 1 1 5B70B68E
 P 9050 3750
 F 0 "D85" H 9050 3850 50  0000 C CNN
@@ -1821,7 +1856,7 @@ F 3 "" H 9050 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW86
+L SW_Push SW86
 U 1 1 5B70B694
 P 9250 4450
 F 0 "SW86" H 9300 4550 50  0000 L CNN
@@ -1832,7 +1867,7 @@ F 3 "" H 9250 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D86
+L D D86
 U 1 1 5B70B69A
 P 8950 4600
 F 0 "D86" H 8950 4700 50  0000 C CNN
@@ -1843,7 +1878,7 @@ F 3 "" H 8950 4600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW87
+L SW_Push SW87
 U 1 1 5B70B6A0
 P 5550 2300
 F 0 "SW87" H 5600 2400 50  0000 L CNN
@@ -1854,7 +1889,7 @@ F 3 "" H 5550 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D87
+L D D87
 U 1 1 5B70B6A6
 P 5250 2450
 F 0 "D87" H 5250 2550 50  0000 C CNN
@@ -1865,7 +1900,7 @@ F 3 "" H 5250 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW90
+L SW_Push SW90
 U 1 1 5B70B6C4
 P 7750 3200
 F 0 "SW90" H 7800 3300 50  0000 L CNN
@@ -1876,7 +1911,7 @@ F 3 "" H 7750 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D90
+L D D90
 U 1 1 5B70B6CA
 P 7450 3350
 F 0 "D90" H 7450 3450 50  0000 C CNN
@@ -1887,7 +1922,7 @@ F 3 "" H 7450 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D16
+L D D16
 U 1 1 5B709C8A
 P 4500 1950
 F 0 "D16" H 4500 2050 50  0000 C CNN
@@ -2215,17 +2250,91 @@ Wire Wire Line
 	7450 3200 7550 3200
 Wire Wire Line
 	8050 3200 7950 3200
+Connection ~ 7450 4350
+Connection ~ 3000 4350
+Connection ~ 3000 3050
+Connection ~ 7450 2600
+Connection ~ 6000 2600
+Connection ~ 2250 4750
+Connection ~ 3000 2100
+Connection ~ 6000 2100
+Connection ~ 2250 3900
+Connection ~ 8250 2100
+Connection ~ 4500 2600
+Connection ~ 1500 3500
+Connection ~ 6000 4350
+Connection ~ 1500 2600
+Connection ~ 8250 2600
+Connection ~ 3000 1600
+Connection ~ 6000 3050
+Connection ~ 6750 4750
+Connection ~ 6750 3900
+Connection ~ 2250 3050
+Connection ~ 7450 1600
+Connection ~ 4500 4750
+Connection ~ 4500 4350
+Connection ~ 3000 3450
+Connection ~ 3750 2100
+Connection ~ 5250 2100
+Connection ~ 6750 3050
+Connection ~ 1500 3050
+Connection ~ 3750 4350
+Connection ~ 2250 2100
+Connection ~ 1500 2100
+Connection ~ 3000 2600
+Connection ~ 9800 3900
+Connection ~ 4500 3050
+Connection ~ 6750 2600
+Connection ~ 1500 1600
+Connection ~ 8250 3900
+Connection ~ 2250 2600
+Connection ~ 8250 3050
+Connection ~ 3750 3450
+Connection ~ 6000 3500
+Connection ~ 4500 3500
+Connection ~ 5250 3900
+Connection ~ 5250 3500
+Connection ~ 3000 4750
+Connection ~ 6000 1600
+Connection ~ 5250 1600
+Connection ~ 3000 3900
+Connection ~ 6000 3900
+Connection ~ 9050 3500
+Connection ~ 5250 3050
+Connection ~ 1500 4350
+Connection ~ 2250 4350
+Connection ~ 4500 3900
+Connection ~ 2250 1600
+Connection ~ 2250 3500
+Connection ~ 3750 3900
+Connection ~ 5250 4350
+Connection ~ 3750 1600
+Connection ~ 4500 1600
+Connection ~ 3750 3050
+Connection ~ 7450 3900
+Connection ~ 1500 3900
+Connection ~ 3750 2600
+Connection ~ 7450 3050
+Connection ~ 1500 4750
+Connection ~ 8250 3500
 Connection ~ 6600 4050
+Connection ~ 8050 1300
 Connection ~ 4350 4050
 Connection ~ 8850 3600
+Connection ~ 6600 1300
 Connection ~ 5850 4050
+Connection ~ 4350 1300
 Connection ~ 2850 2300
+Connection ~ 9650 1300
 Connection ~ 5100 4450
 Connection ~ 3600 1800
 Connection ~ 2100 2300
 Connection ~ 5100 4050
 Connection ~ 2850 1800
+Connection ~ 5850 1300
+Connection ~ 5100 1300
 Connection ~ 8050 3600
+Connection ~ 8850 1300
 Connection ~ 8850 2300
 Connection ~ 3600 3150
 Connection ~ 2100 1800
@@ -2238,8 +2347,10 @@ Connection ~ 6600 3600
 Connection ~ 6600 3200
 Connection ~ 3600 2300
 Connection ~ 4350 1800
+Connection ~ 3600 1300
 Connection ~ 6600 1800
 Connection ~ 8050 2750
+Connection ~ 2850 1300
 Connection ~ 9650 3200
 Connection ~ 5100 3200
 Connection ~ 6600 2750
@@ -2263,25 +2374,32 @@ Connection ~ 8850 3200
 Connection ~ 8050 3200
 Connection ~ 3600 4450
 Connection ~ 5850 2300
+Connection ~ 2100 1300
 Connection ~ 9650 3600
+Connection ~ 7350 1300
 Connection ~ 7350 3200
+Connection ~ 6750 1600
 Wire Wire Line
-	2100 1300 2100 1800
+	2100 1300 2100 4900
 Wire Wire Line
 	2100 4450 2000 4450
 Wire Wire Line
 	2100 1800 2000 1800
+Connection ~ 6750 2100
 Wire Wire Line
-	2850 1300 2850 1800
+	2850 1300 2850 4900
 Connection ~ 2850 4450
 Wire Wire Line
-	3600 1300 3600 1800
+	3600 1300 3600 4900
 Connection ~ 3600 4050
 Wire Wire Line
-	4350 1300 4350 1800
+	4350 1300 4350 4900
+Wire Wire Line
+	1200 2600 9050 2600
 Wire Wire Line
 	2000 2750 2100 2750
 Connection ~ 2100 2750
+Connection ~ 5250 2600
 Wire Wire Line
 	2750 2750 2850 2750
 Connection ~ 2850 2750
@@ -2292,44 +2410,71 @@ Wire Wire Line
 	4250 2750 4350 2750
 Connection ~ 4350 2750
 Wire Wire Line
+	1200 3050 8250 3050
+Wire Wire Line
 	2000 3200 2100 3200
 Connection ~ 2100 3200
+Connection ~ 4500 2100
 Wire Wire Line
-	5100 1300 5100 1800
+	5100 1300 5100 4900
 Connection ~ 5100 1800
 Wire Wire Line
-	5850 1300 5850 1800
+	5850 1300 5850 4900
 Wire Wire Line
 	2750 3200 2850 3200
 Connection ~ 2850 3200
 Wire Wire Line
+	1200 3500 3000 3500
+Wire Wire Line
 	3000 3500 3000 3450
+Wire Wire Line
+	3000 3450 4400 3450
 Wire Wire Line
 	4400 3450 4400 3500
 Wire Wire Line
-	6600 1300 6600 1800
+	4400 3500 9050 3500
+Connection ~ 6750 3500
+Connection ~ 7450 3500
+Wire Wire Line
+	6600 1300 6600 4900
 Connection ~ 6600 2300
 Wire Wire Line
-	7350 1300 7350 1800
+	7350 1300 7350 4900
 Connection ~ 7350 1800
 Connection ~ 7350 2750
+Connection ~ 9050 1600
+Connection ~ 7450 2100
 Wire Wire Line
-	8050 1300 8050 1800
+	1200 2100 9050 2100
+Wire Wire Line
+	8050 1300 8050 4900
 Connection ~ 8050 2300
 Connection ~ 8050 4050
+Connection ~ 8250 1600
 Wire Wire Line
-	8850 1300 8850 1800
+	1200 1600 9900 1600
+Wire Wire Line
+	8850 1300 8850 4900
 Connection ~ 8850 2750
+Wire Wire Line
+	1200 4750 9800 4750
+Connection ~ 8250 4750
 Connection ~ 8850 4450
 Wire Wire Line
-	9650 1300 9650 1800
+	1200 4350 9800 4350
+Wire Wire Line
+	1200 3900 9800 3900
+Connection ~ 9050 3900
+Wire Wire Line
+	9650 1300 9650 4900
 Connection ~ 9650 1800
 Connection ~ 9650 2300
+Connection ~ 8950 4750
 Wire Wire Line
 	9650 4450 9450 4450
 Connection ~ 9650 4450
 Wire Wire Line
-	10500 1300 10500 3600
+	10500 1300 10500 4900
 Connection ~ 10500 3600
 Connection ~ 10500 4050
 Connection ~ 10500 4450
@@ -2337,393 +2482,4 @@ Text HLabel 9650 4900 3    60   Output ~ 0
 COL10
 Text HLabel 10500 4900 3    60   Output ~ 0
 COL11
-Wire Wire Line
-	6600 4050 6600 4900
-Wire Wire Line
-	4350 4050 4350 4900
-Wire Wire Line
-	8850 3600 8850 4450
-Wire Wire Line
-	5850 4050 5850 4900
-Wire Wire Line
-	2850 2300 2850 2750
-Wire Wire Line
-	5100 4450 5100 4900
-Wire Wire Line
-	3600 1800 3600 2300
-Wire Wire Line
-	2100 2300 2100 2750
-Wire Wire Line
-	5100 4050 5100 4450
-Wire Wire Line
-	2850 1800 2850 2300
-Wire Wire Line
-	8050 3600 8050 4050
-Wire Wire Line
-	8850 2300 8850 2750
-Wire Wire Line
-	3600 3150 3600 3600
-Wire Wire Line
-	2100 1800 2100 2300
-Wire Wire Line
-	4350 3150 4350 3600
-Wire Wire Line
-	3600 3600 3600 4050
-Wire Wire Line
-	4350 3600 4350 4050
-Wire Wire Line
-	2100 3600 2100 4050
-Wire Wire Line
-	4350 2300 4350 2750
-Wire Wire Line
-	6600 3600 6600 4050
-Wire Wire Line
-	6600 3200 6600 3600
-Wire Wire Line
-	3600 2300 3600 2750
-Wire Wire Line
-	4350 1800 4350 2300
-Wire Wire Line
-	6600 1800 6600 2300
-Wire Wire Line
-	8050 2750 8050 3200
-Wire Wire Line
-	9650 3200 9650 3600
-Wire Wire Line
-	5100 3200 5100 3600
-Wire Wire Line
-	6600 2750 6600 3200
-Wire Wire Line
-	2850 3600 2850 4050
-Wire Wire Line
-	8850 1800 8850 2300
-Wire Wire Line
-	7350 4450 7350 4900
-Wire Wire Line
-	5850 1800 5850 2300
-Wire Wire Line
-	5100 2750 5100 3200
-Wire Wire Line
-	5850 3600 5850 4050
-Wire Wire Line
-	5850 2750 5850 3200
-Wire Wire Line
-	5100 3600 5100 4050
-Wire Wire Line
-	8050 1800 8050 2300
-Wire Wire Line
-	2100 4450 2100 4900
-Wire Wire Line
-	2850 4050 2850 4450
-Wire Wire Line
-	2100 4050 2100 4450
-Wire Wire Line
-	5850 3200 5850 3600
-Wire Wire Line
-	7350 2300 7350 2750
-Wire Wire Line
-	7350 3600 7350 4450
-Wire Wire Line
-	5100 2300 5100 2750
-Wire Wire Line
-	8850 3200 8850 3600
-Wire Wire Line
-	8050 3200 8050 3600
-Wire Wire Line
-	3600 4450 3600 4900
-Wire Wire Line
-	5850 2300 5850 2750
-Wire Wire Line
-	9650 3600 9650 4450
-Wire Wire Line
-	7350 3200 7350 3600
-Wire Wire Line
-	2850 4450 2850 4900
-Wire Wire Line
-	3600 4050 3600 4450
-Wire Wire Line
-	2100 2750 2100 3200
-Wire Wire Line
-	2850 2750 2850 3200
-Wire Wire Line
-	3600 2750 3600 3150
-Wire Wire Line
-	4350 2750 4350 3150
-Wire Wire Line
-	2100 3200 2100 3600
-Wire Wire Line
-	5100 1800 5100 2300
-Wire Wire Line
-	2850 3200 2850 3600
-Wire Wire Line
-	6600 2300 6600 2750
-Wire Wire Line
-	7350 1800 7350 2300
-Wire Wire Line
-	7350 2750 7350 3200
-Wire Wire Line
-	8050 2300 8050 2750
-Wire Wire Line
-	8050 4050 8050 4900
-Wire Wire Line
-	8850 2750 8850 3200
-Wire Wire Line
-	8850 4450 8850 4900
-Wire Wire Line
-	9650 1800 9650 2300
-Wire Wire Line
-	9650 2300 9650 3200
-Wire Wire Line
-	9650 4450 9650 4900
-Wire Wire Line
-	10500 3600 10500 4050
-Wire Wire Line
-	10500 4050 10500 4450
-Wire Wire Line
-	10500 4450 10500 4900
-Wire Wire Line
-	3000 3450 3750 3450
-Wire Wire Line
-	1200 3500 1500 3500
-Wire Wire Line
-	4400 3500 4500 3500
-Wire Wire Line
-	1200 3050 1500 3050
-Wire Wire Line
-	1200 4750 1500 4750
-Wire Wire Line
-	1200 3900 1500 3900
-Wire Wire Line
-	1200 4350 1500 4350
-Wire Wire Line
-	1200 2600 1500 2600
-Wire Wire Line
-	1200 2100 1500 2100
-Wire Wire Line
-	1200 1600 1500 1600
-Connection ~ 9050 1600
-Wire Wire Line
-	9050 1600 9900 1600
-Connection ~ 8250 1600
-Wire Wire Line
-	8250 1600 9050 1600
-Connection ~ 7450 1600
-Wire Wire Line
-	7450 1600 8250 1600
-Connection ~ 7450 2100
-Wire Wire Line
-	7450 2100 8250 2100
-Connection ~ 8250 2100
-Wire Wire Line
-	8250 2100 9050 2100
-Connection ~ 6000 2100
-Wire Wire Line
-	6000 2100 6750 2100
-Connection ~ 6750 2100
-Wire Wire Line
-	6750 2100 7450 2100
-Connection ~ 6750 1600
-Wire Wire Line
-	6750 1600 7450 1600
-Connection ~ 6000 1600
-Wire Wire Line
-	6000 1600 6750 1600
-Connection ~ 5250 2100
-Wire Wire Line
-	5250 2100 6000 2100
-Connection ~ 5250 1600
-Wire Wire Line
-	5250 1600 6000 1600
-Connection ~ 4500 1600
-Wire Wire Line
-	4500 1600 5250 1600
-Connection ~ 4500 2100
-Wire Wire Line
-	4500 2100 5250 2100
-Connection ~ 3750 1600
-Wire Wire Line
-	3750 1600 4500 1600
-Connection ~ 3750 2100
-Wire Wire Line
-	3750 2100 4500 2100
-Connection ~ 3000 1600
-Wire Wire Line
-	3000 1600 3750 1600
-Connection ~ 3000 2100
-Wire Wire Line
-	3000 2100 3750 2100
-Connection ~ 2250 1600
-Wire Wire Line
-	2250 1600 3000 1600
-Connection ~ 2250 2100
-Wire Wire Line
-	2250 2100 3000 2100
-Connection ~ 1500 2100
-Wire Wire Line
-	1500 2100 2250 2100
-Connection ~ 1500 1600
-Wire Wire Line
-	1500 1600 2250 1600
-Connection ~ 1500 2600
-Wire Wire Line
-	1500 2600 2250 2600
-Connection ~ 2250 2600
-Wire Wire Line
-	2250 2600 3000 2600
-Connection ~ 3000 2600
-Wire Wire Line
-	3000 2600 3750 2600
-Connection ~ 3750 2600
-Wire Wire Line
-	3750 2600 4500 2600
-Connection ~ 4500 2600
-Wire Wire Line
-	4500 2600 5250 2600
-Connection ~ 5250 2600
-Wire Wire Line
-	5250 2600 6000 2600
-Connection ~ 6000 2600
-Wire Wire Line
-	6000 2600 6750 2600
-Connection ~ 6750 2600
-Wire Wire Line
-	6750 2600 7450 2600
-Connection ~ 7450 2600
-Wire Wire Line
-	7450 2600 8250 2600
-Connection ~ 8250 2600
-Wire Wire Line
-	8250 2600 9050 2600
-Connection ~ 7450 3050
-Wire Wire Line
-	7450 3050 8250 3050
-Connection ~ 6750 3050
-Wire Wire Line
-	6750 3050 7450 3050
-Connection ~ 6000 3050
-Wire Wire Line
-	6000 3050 6750 3050
-Connection ~ 5250 3050
-Wire Wire Line
-	5250 3050 6000 3050
-Connection ~ 4500 3050
-Wire Wire Line
-	4500 3050 5250 3050
-Connection ~ 3750 3050
-Wire Wire Line
-	3750 3050 4500 3050
-Connection ~ 3000 3050
-Wire Wire Line
-	3000 3050 3750 3050
-Connection ~ 2250 3050
-Wire Wire Line
-	2250 3050 3000 3050
-Connection ~ 1500 3050
-Wire Wire Line
-	1500 3050 2250 3050
-Connection ~ 1500 3500
-Wire Wire Line
-	1500 3500 2250 3500
-Connection ~ 2250 3500
-Wire Wire Line
-	2250 3500 3000 3500
-Connection ~ 3750 3450
-Wire Wire Line
-	3750 3450 4400 3450
-Connection ~ 4500 3500
-Wire Wire Line
-	4500 3500 5250 3500
-Connection ~ 5250 3500
-Wire Wire Line
-	5250 3500 6000 3500
-Connection ~ 6000 3500
-Wire Wire Line
-	6000 3500 6750 3500
-Connection ~ 6750 3500
-Wire Wire Line
-	6750 3500 7450 3500
-Connection ~ 7450 3500
-Wire Wire Line
-	7450 3500 8250 3500
-Connection ~ 8250 3500
-Wire Wire Line
-	8250 3500 9050 3500
-Connection ~ 8250 3900
-Wire Wire Line
-	8250 3900 9050 3900
-Connection ~ 9050 3900
-Wire Wire Line
-	9050 3900 9800 3900
-Connection ~ 7450 3900
-Wire Wire Line
-	7450 3900 8250 3900
-Connection ~ 7450 4350
-Wire Wire Line
-	7450 4350 9800 4350
-Connection ~ 6750 3900
-Wire Wire Line
-	6750 3900 7450 3900
-Connection ~ 6000 4350
-Wire Wire Line
-	6000 4350 7450 4350
-Connection ~ 6000 3900
-Wire Wire Line
-	6000 3900 6750 3900
-Connection ~ 5250 3900
-Wire Wire Line
-	5250 3900 6000 3900
-Connection ~ 5250 4350
-Wire Wire Line
-	5250 4350 6000 4350
-Connection ~ 4500 4350
-Wire Wire Line
-	4500 4350 5250 4350
-Connection ~ 4500 3900
-Wire Wire Line
-	4500 3900 5250 3900
-Connection ~ 3750 3900
-Wire Wire Line
-	3750 3900 4500 3900
-Connection ~ 3750 4350
-Wire Wire Line
-	3750 4350 4500 4350
-Connection ~ 3000 4350
-Wire Wire Line
-	3000 4350 3750 4350
-Connection ~ 3000 3900
-Wire Wire Line
-	3000 3900 3750 3900
-Connection ~ 2250 3900
-Wire Wire Line
-	2250 3900 3000 3900
-Connection ~ 2250 4350
-Wire Wire Line
-	2250 4350 3000 4350
-Connection ~ 1500 4350
-Wire Wire Line
-	1500 4350 2250 4350
-Connection ~ 1500 3900
-Wire Wire Line
-	1500 3900 2250 3900
-Connection ~ 1500 4750
-Wire Wire Line
-	1500 4750 2250 4750
-Connection ~ 2250 4750
-Wire Wire Line
-	2250 4750 3000 4750
-Connection ~ 3000 4750
-Wire Wire Line
-	3000 4750 4500 4750
-Connection ~ 4500 4750
-Wire Wire Line
-	4500 4750 6750 4750
-Connection ~ 6750 4750
-Wire Wire Line
-	6750 4750 8250 4750
-Connection ~ 8250 4750
-Wire Wire Line
-	8250 4750 8950 4750
-Connection ~ 8950 4750
-Wire Wire Line
-	8950 4750 9800 4750
 $EndSCHEMATC

@@ -1,5 +1,40 @@
-EESchema Schematic File Version 4
-EELAYER 26 0
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:switches
+LIBS:modules
+LIBS:rfcom
+LIBS:shardy
+LIBS:MCU_Microchip_AVR
+LIBS:keyboard-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -75,14 +110,14 @@ F19 "COL9" O R 7050 4150 60
 F20 "COL10" O R 7050 4250 60 
 $EndSheet
 $Comp
-L Connector_Generic:Conn_02x10_Odd_Even J1
+L CONN_02X10 J1
 U 1 1 5BBE957C
-P 3600 4000
-F 0 "J1" H 3600 4550 50  0000 C CNN
-F 1 "CONN_02X10" V 3600 4000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x10_Pitch1.27mm_SMD" H 3600 2800 50  0001 C CNN
-F 3 "" H 3600 2800 50  0001 C CNN
-	1    3600 4000
+P 3650 4050
+F 0 "J1" H 3650 4600 50  0000 C CNN
+F 1 "CONN_02X10" V 3650 4050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x10_Pitch1.27mm_SMD" H 3650 2850 50  0001 C CNN
+F 3 "" H 3650 2850 50  0001 C CNN
+	1    3650 4050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -201,45 +236,4 @@ Wire Wire Line
 	3400 3700 3000 3700
 Text Label 3000 3700 2    60   ~ 0
 PC2
-$Comp
-L Device:LED D2
-U 1 1 5C3B1368
-P 2350 3900
-F 0 "D2" V 2388 3783 50  0000 R CNN
-F 1 "LED" V 2297 3783 50  0000 R CNN
-F 2 "LEDs:LED_D3.0mm" H 2350 3900 50  0001 C CNN
-F 3 "~" H 2350 3900 50  0001 C CNN
-	1    2350 3900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3400 3600 2350 3600
-Wire Wire Line
-	2350 3600 2350 3750
-Wire Wire Line
-	2350 4050 2350 4150
-$Comp
-L Connector:TestPoint TP1
-U 1 1 5C3B330F
-P 2350 4600
-F 0 "TP1" H 2292 4627 50  0000 R CNN
-F 1 "TestPoint" H 2292 4718 50  0000 R CNN
-F 2 "Connectors:PINTST" H 2550 4600 50  0001 C CNN
-F 3 "~" H 2550 4600 50  0001 C CNN
-	1    2350 4600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 5C3B33E5
-P 2350 4300
-F 0 "R1" H 2420 4346 50  0000 L CNN
-F 1 "10k" H 2420 4255 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" V 2280 4300 50  0001 C CNN
-F 3 "~" H 2350 4300 50  0001 C CNN
-	1    2350 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2350 4450 2350 4600
 $EndSCHEMATC
