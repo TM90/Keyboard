@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 1859)
+    (drawings 1866)
     (tracks 1447)
     (zones 0)
     (modules 176)
@@ -7285,6 +7285,13 @@
     )
   )
 
+  (gr_line (start 315.708 89.828) (end 330.808 104.928) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 41.108 89.828) (end 315.708 89.828) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 26.108 104.828) (end 41.108 89.828) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 25.908 105.028) (end 26.108 104.828) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 25.908 234.028) (end 25.908 105.028) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 330.908 234.028) (end 25.908 234.028) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 330.808 104.928) (end 330.908 234.028) (layer Edge.Cuts) (width 0.15))
   (dimension 144 (width 0.3) (layer Dwgs.User)
     (gr_text "144.000 mm" (at 353.258 162.028 90) (layer Dwgs.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
