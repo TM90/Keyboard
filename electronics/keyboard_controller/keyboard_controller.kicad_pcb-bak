@@ -2035,7 +2035,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 5D3E8870)
-    (at 167.64 85.725)
+    (at 55.88 85.09)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5D561F9A)
@@ -2076,7 +2076,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 5D3E885B)
-    (at 173.99 85.725)
+    (at 62.23 85.09)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5D4E8FFA)
