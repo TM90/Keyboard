@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:keyboard_controller-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1265,4 +1265,5 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf" H 5300 3450 50
 	1    5300 3450
 	1    0    0    -1  
 $EndComp
+NoConn ~ 1900 4250
 $EndSCHEMATC
