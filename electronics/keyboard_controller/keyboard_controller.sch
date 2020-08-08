@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:keyboard_controller-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:AVR-ISP-6 J2
+L keyboard_controller-rescue:AVR-ISP-6-Connector J2
 U 1 1 5CE1CD85
 P 10100 1550
 F 0 "J2" H 9821 1646 50  0000 R CNN
@@ -156,7 +155,7 @@ U 1 1 5D06B1F2
 P 1900 4350
 F 0 "P1" H 2007 5217 50  0000 C CNN
 F 1 "USB_C_Plug_USB2.0" H 2007 5126 50  0000 C CNN
-F 2 "Connector_USB:USB3_A_Molex_48393-001" H 2050 4350 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Plug_Molex_105444" H 2050 4350 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2050 4350 50  0001 C CNN
 	1    1900 4350
 	1    0    0    -1  
@@ -330,43 +329,41 @@ Wire Wire Line
 Wire Wire Line
 	5000 7450 4700 7450
 Text Label 4700 6650 2    50   ~ 0
-PC2
-Text Label 4700 6750 2    50   ~ 0
-PA7
-Text Label 4700 6850 2    50   ~ 0
-PA6
-Text Label 4700 6950 2    50   ~ 0
-PA5
-Text Label 4700 7050 2    50   ~ 0
-PA4
-Text Label 4700 7150 2    50   ~ 0
-PA3
-Text Label 4700 7250 2    50   ~ 0
-PA2
-Text Label 4700 7350 2    50   ~ 0
 PA1
-Text Label 4700 7450 2    50   ~ 0
-PA0
+Text Label 4700 6750 2    50   ~ 0
+PA2
+Text Label 4700 6850 2    50   ~ 0
+PA3
+Text Label 4700 6950 2    50   ~ 0
+PA4
+Text Label 4700 7050 2    50   ~ 0
+PA5
+Text Label 4700 7150 2    50   ~ 0
+PA6
+Text Label 4700 7250 2    50   ~ 0
+PA7
+Text Label 4700 7350 2    50   ~ 0
+PC2
 Text Label 5800 6550 0    50   ~ 0
-PB0
-Text Label 5800 6650 0    50   ~ 0
-PB1
-Text Label 5800 6750 0    50   ~ 0
-PB2
-Text Label 5800 6850 0    50   ~ 0
-PB3
-Text Label 5800 6950 0    50   ~ 0
-PB4
-Text Label 5800 7050 0    50   ~ 0
-PB5
-Text Label 5800 7150 0    50   ~ 0
-PB6
-Text Label 5800 7250 0    50   ~ 0
-PB7
-Text Label 5800 7350 0    50   ~ 0
-PC0
-Text Label 5800 7450 0    50   ~ 0
 PC1
+Text Label 5800 6650 0    50   ~ 0
+PC0
+Text Label 5800 6750 0    50   ~ 0
+PB7
+Text Label 5800 6850 0    50   ~ 0
+PB6
+Text Label 5800 6950 0    50   ~ 0
+PB5
+Text Label 5800 7050 0    50   ~ 0
+PB4
+Text Label 5800 7150 0    50   ~ 0
+PB3
+Text Label 5800 7250 0    50   ~ 0
+PB2
+Text Label 5800 7350 0    50   ~ 0
+PB1
+Text Label 5800 7450 0    50   ~ 0
+PB0
 Wire Wire Line
 	5900 1750 6150 1750
 Text Label 6150 1750 0    50   ~ 0
@@ -1048,8 +1045,6 @@ Wire Wire Line
 	5500 7550 5800 7550
 Wire Wire Line
 	5000 7550 4700 7550
-Text Label 4700 6550 2    50   ~ 0
-SHIFT_LED
 $Comp
 L power:GND #PWR0134
 U 1 1 5D7A4045
@@ -1081,8 +1076,6 @@ Text Label 4500 2550 2    50   ~ 0
 VUSB
 Wire Wire Line
 	4700 2550 4500 2550
-Wire Wire Line
-	3900 2600 3900 2550
 Connection ~ 3900 2450
 Wire Wire Line
 	3900 2500 3900 2450
@@ -1193,7 +1186,7 @@ U 1 1 5CE1DDDC
 P 3550 2050
 F 0 "Y1" H 3550 2318 50  0000 C CNN
 F 1 "16MHz" H 3550 2227 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_HC49-SD_HandSoldering" H 3550 2050 50  0001 C CNN
+F 2 "Crystal:Crystal_HC49-4H_Vertical" H 3550 2050 50  0001 C CNN
 F 3 "~" H 3550 2050 50  0001 C CNN
 	1    3550 2050
 	1    0    0    -1  
@@ -1255,7 +1248,7 @@ F 3 "~" H 4200 4000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MCU_Microchip_AVR:AT90USB1286-AU U1
+L keyboard_controller-rescue:AT90USB1286-AU-MCU_Microchip_AVR U1
 U 1 1 5D82ED23
 P 5300 3450
 F 0 "U1" H 5300 1361 50  0000 C CNN
@@ -1266,4 +1259,8 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf" H 5300 3450 50
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1900 4250
+Text Label 4700 6550 2    50   ~ 0
+PA0
+Text Label 4700 7450 2    50   ~ 0
+SHIFT_LED
 $EndSCHEMATC

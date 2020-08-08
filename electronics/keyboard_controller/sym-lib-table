@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name 177920511)(type Legacy)(uri /home/tobias/Documents/Keyboard/electronics/keyboard_controller/4xxx.lib)(options "")(descr ""))
+  (lib (name keyboard_controller-rescue)(type Legacy)(uri ${KIPRJMOD}/keyboard_controller-rescue.lib)(options "")(descr ""))
 )
