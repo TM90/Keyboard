@@ -5,7 +5,7 @@
 Have as much as possible open source? Also the tools used to build the keyboard
 
 ## Tool usage:
-1. KiCAD (schematic, layout) (http://kicad-pcb.org/ )
+1. KiCAD (schematic, layout) (http://kicad.org/ )
 2. avr-gcc (https://gcc.gnu.org/wiki/avr-gcc )
 3. Export data for alu body from a layer in the KiCAD layout data
 
